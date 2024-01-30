@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "NunitoDisplay";
+    src: url("Nunito-ExtraBold.ttf");
+}
+.bannerimage{
+    width: 1920px;
+    height: 605.49px;
+    border: 2px solid;
+    background-image: url(Banner\ Image.png);
+    margin:0px;
+    padding: 0px;
+    }
+.Displaytext{
+    font-family: "Nunito";
+    font-size: 70px;
+    color: #292930;
+    font-weight: 800;
+    line-height: 77px;
+    letter-spacing: 0em;
+    margin-top: 398.99px;
+    margin-left: 822px;
+
+    
+}
+
+.Servicesbackground{
+    background-color: #292930;
+    width: 1920px;
+    height: 1623.57px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.icon{
+    margin-top: 153px;
+    margin-left: 633px;
+}
