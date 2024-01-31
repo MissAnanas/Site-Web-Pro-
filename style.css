@@ -37,11 +37,11 @@ footer{
 
 .inputnewsletter{
   display: flex; 
-  margin-left: 10%;
   background-color: rgba(41,41,48,255);
   align-items: center;
   height: 62px;
   width: 293px;
+  margin: auto;
 
 }
 
@@ -60,20 +60,102 @@ footer{
 
 .titleh2{
   color: white;
-  margin-top: 0%;
+  margin: 0%;
+  width: 244px;
+  height: 28px;
+  font-size: 25px;
 }
 
 .titleh1{
   color: rgba(255,220,100);
   background-color: rgba(60,60,69,255);
+  height: 62px;
+  width: 255px;
+  display: flex;
+  align-items: center;
+  margin: 5%;
+  margin-left: 0%;
+  border-radius: 7px;
+  font-size: 25px;
+  justify-content: center;
+
 }
 
+.mail{
+  color: white;
+  font-size: 18px;
+}
 
+.tel{
+  display: flex;
+  flex-direction: row;
+}
 
+.content{
+  margin-left: 200px;
+}
 
+.rue{
+  color: white;
+  size: 18px;
+  padding-top: 6%;
+}
 
+.MAP{
+  color: rgba(255,220,100);
+  padding-top: 1%;
+  position:absolute;
+}
 
+.adresse{
+  padding-left: 10%;
+  width: 200px;
+}
 
+.lieu{
+  color: white;
+  margin: 0%;
+  padding-left: 2%;
+}
+
+.lampe{
+  width: 19px;
+  height: 25px;
+}
+
+.barre{
+  width: 702px;
+  Border: 1px;
+  height: 2px;
+  bottom: 6pc;
+  position: absolute;
+  padding-left: 42%;
+}
+
+.icpage{
+width: 30px;
+height: 30px;
+}
+
+.page{
+  color: white;
+  margin: 0%;
+  padding-left: 2%;
+}
+
+.allpage{
+  padding-top: 15%;
+  position: absolute;
+  padding-left: 9%;
+
+}
+
+.link{
+  color: white;
+  padding-top: 30px;
+  position: absolute;
+  text-decoration: none;
+}
 
 
 
