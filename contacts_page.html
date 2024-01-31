@@ -9,6 +9,8 @@
 <body>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
     </style>
     <!--Header-->
 
@@ -19,7 +21,7 @@
 
         <div class="informations_box">
             <div class="promote_mail">
-                <div class="Contact">
+                <div class="contact">
                     <p>Contact</p>
                 </div>
                 <img src="Images/Line.png" alt="separation line">
@@ -34,7 +36,7 @@
             </div>
 
             <div class="promote_number">
-                <div class="Appel">
+                <div class="appel">
                     <p>Appel</p>
                 </div>
                 <img src="Images/Line.png" alt="separation line">
@@ -49,7 +51,7 @@
             </div>
 
             <div class="promote_location">
-                <div class="Bureaux">
+                <div class="bureaux">
                     <p>Bureaux</p>
                 </div>
                 <img src="Images/Line.png" alt="separation line">
@@ -65,16 +67,38 @@
 
         <div class="contact_register">
             <form action="">
-                <p class="">Nom Complet *</p>
-                <input type="text" name="user_name" placeholder="John David">
-                <p class="">Votre E-Mail *</p>
-                <input type="mail" name="mail" placeholder="email@gmail.com">
-                <p class="">Société *</p>
-                <input type="text" name="company" placeholder="nom de votre société ici">
-                <p class="">Sujet *</p>
-                <input type="text" name="subject" placeholder="Comment pouvons nous vous aider">
-                <p class="">Message *</p>
-                <input type="text" name="message" placeholder="Bonjour, je voudrais vous  parler de ...">
+                <div>
+                    <div class="name_mail_register">
+                        <div class="name_register" id="register">
+                            <p>Nom Complet *</p>
+                            <input type="text" name="user_name" placeholder="John David">
+                        </div>
+                        
+                        <div class="mail_register" id="register">
+                            <p>Votre E-Mail *</p>
+                            <input type="mail" name="mail" placeholder="email@gmail.com">
+                        </div>
+                    </div>
+                    
+                    <div class="company_subject_register">
+                        <div class="company_register" id="register">
+                            <p>Société *</p>
+                            <input type="text" name="company" placeholder="nom de votre société ici">
+                        </div>
+                        
+                        <div class="subject_register" id="register">
+                            <p >Sujet *</p>
+                            <input type="text" name="subject" placeholder="Comment pouvons nous vous aider">
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="message_register">
+                    <p>Message *</p>
+                    <input type="text" name="message" placeholder="Bonjour, je voudrais vous  parler de ...">
+                </div>
+                
                 <input type="submit" value="Envoyer Message" class="submit_button">
             </form>
         </div>
