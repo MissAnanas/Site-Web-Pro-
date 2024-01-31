@@ -23,16 +23,114 @@
     
 }
 
-.Servicesbackground{
+.Servicebanner{
     background-color: #292930;
     width: 1920px;
     height: 1623.57px;
     margin: 0;
     padding: 0;
+    
+}
+
+.Content{
+    width:1,200px;
+    height: 1,317px;
+    top: 758px;
+    margin-left: 360px;
+    gap: 52px;
+
+}
+
+
+.Heading{
+    width: 781px;
+    height: 248px;
+    gap: 34px;
+
+}
+.Subtitle{
+    font-family: Noto Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.135em;
+    text-align: center;
+
+    font-family: "Noto Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.135em;
+    text-align: center;
+
+}
+.title{
+    width: 781px;
+    height: Hug 126px;
+    gap: 15px
+
+}
+.Title{
+    font-family: "Nunito";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+
 
 }
 
 .icon{
-    margin-top: 153px;
-    margin-left: 633px;
+    display: flex;
+    justify-content: center;
+}
+.logo-container {
+    width: 88px;
+    height: 88px;
+    background-color: #5956E8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+.logo-gear {
+    width: 44px; 
+    height: 44px;
+    color: white; 
+}
+
+.Services{
+    width: 1,200px;
+    height: 1,017px;
+    gap: 67px;
+
+}
+.Service-container1{
+    width: 1200px;
+    height: auto;
+}
+
+.Service-container2{
+    width: 1200px;
+    height: auto;
+}
+
+.Service{
+    width:352px;
+    height: auto;
+    padding: 41px, 39px, 41px, 39px;
+    border-radius: 30px;
+    border: 1px;
+    gap: 10px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%), linear-gradient(0deg, #424245, #424245);
+
+}
+.Service-content{
+    width: 274px;
+    height: 393px;
+    gap: 26px;
+
 }
