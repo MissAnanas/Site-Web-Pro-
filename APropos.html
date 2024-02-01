@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="apropos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <img class="font" src="image1.png">
+    <div id="superposer1">
+        <div class="compteur" >
+            <div class="counter" id="counter1"></div>
+            <div class="counter" id="counter2"></div>
+            <div class="counter" id="counter3"></div>
+            <div class="counter" id="counter4"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div><img src="image3.png"></div>
+        <div>
+            <h1>Titre</h1>
+            <p>Blablabla pas ouf</p>
+        </div>
+    </div>
+    <div id="superposer">
+        <div Align="center">
+            <img src="Icon4.png" id="icon">
+            <h1>// 02 . nos valeurs</h1>
+            <p>Les valeurs fondamentales qui sous-tendent notre travail</p>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade" Align="center">
+                <img id="icon" src="Icon.png" style="width:50%">
+                <h2 id="white">Efficacité</h2>
+                <p id="white">Lorem ipsum dolor sit amet consecte tur adipiscing elit olme do semper dalaracc lacus vel facilisis volutpat est velitolm.</p>
+            </div>
+            <div class="mySlides fade" Align="center">
+                <img id="icon" src="Icon1.png" style="width:50%">
+                <h2 id="white">Responsabilité</h2>
+                <p id="white">Lorem ipsum dolor sit amet consecte tur adipiscing elit olme do semper dalaracc lacus vel facilisis volutpat est velitolm.</p>
+            </div>
+            <div class="mySlides fade" Align="center">
+                <img id="icon" src="Icon2.png" style="width:50%">
+                <h2 id="white">Engagement</h2>
+                <p id="white">Lorem ipsum dolor sit amet consecte tur adipiscing elit olme do semper dalaracc lacus vel facilisis volutpat est velitolm.</p>
+            </div>
+            <div class="mySlides fade" Align="center">
+                <img id="icon" src="Icon3.png" style="width:50%">
+                <h2 id="white">Travail d'équipe</h2>
+                <p id="white">Lorem ipsum dolor sit amet consecte tur adipiscing elit olme do semper dalaracc lacus vel facilisis volutpat est velitolm.</p>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="dotslide">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <div id="buttons1">
+            <a href="#">
+                <div class="button" Align="center"> Contact</div>
+            </a>
+            <a href="#">
+                <div class="button1" Align="center"> Nos Services</div>
+            </a>
+        </div>
+    </div>
+    <div Align="center">
+        <img src="Vector.png" id="icon1">
+        <h1>// 03 . notre équipe</h1>
+        <p>Notre équipe d'experts marketing</p>
+    </div>
+    <div class="carte-container">
+        <div class="carte" Align="center">
+            <img id="icon" src="Icon.png" style="width:50%">
+            <h2 id="black">Efficacité</h2>
+            <p id="black">Lorem ipsum dolor sit amet consecte tur adipiscing elit olme do semper dalaracc lacus vel facilisis volutpat est velitolm.</p>
+        </div>
+        <div class="carte" Align="center">
+            <img id="icon" src="Icon1.png" style="width:50%">
+            <h2 id="black">Responsabilité</h2>
+            <p id="black">Lorem ipsum dolor sit amet consecte tur adipiscing elit olme do semper dalaracc lacus vel facilisis volutpat est velitolm.</p>
+        </div>
+        <div class="carte" Align="center">
+            <img id="icon" src="Icon2.png" style="width:50%">
+            <h2 id="black">Engagement</h2>
+            <p id="black">Lorem ipsum dolor sit amet consecte tur adipiscing elit olme do semper dalaracc lacus vel facilisis volutpat est velitolm.</p>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+
+        // Sélection de la div du compteur
+        const counter1 = document.getElementById('counter1');
+        let count1 = 0;
+        
+        // Fonction pour mettre à jour le compteur
+        function updateCounter1() {
+            if (count1 <= 325) {
+                count1 += 1;
+                counter1.textContent = count1;
+                setTimeout(updateCounter1, 15); // ajustez le délai selon vos besoins
+            }
+        }
+        
+        // Appelle la fonction pour démarrer le compteur
+        updateCounter1();
+
+         // Sélection de la div du compteur
+        const counter2 = document.getElementById('counter2');
+        let count2 = 0;
+        
+        // Fonction pour mettre à jour le compteur
+        function updateCounter2() {
+            if (count2 <= 975) {
+                count2 += 1;
+                counter2.textContent = count2;
+                setTimeout(updateCounter2, 1); // ajustez le délai selon vos besoins
+            }
+        }
+        
+        // Appelle la fonction pour démarrer le compteur
+        updateCounter2();
+
+         // Sélection de la div du compteur
+        const counter3 = document.getElementById('counter3');
+        let count3 = 0;
+        
+        // Fonction pour mettre à jour le compteur
+        function updateCounter3() {
+            if (count3 <= 70) {
+                count3 += 1;
+                counter3.textContent = count3;
+                setTimeout(updateCounter3, 60); // ajustez le délai selon vos besoins
+            }
+        }
+        
+        // Appelle la fonction pour démarrer le compteur
+        updateCounter3();
+
+         // Sélection de la div du compteur
+        const counter4 = document.getElementById('counter4');
+        let count4 = 0;
+        
+        // Fonction pour mettre à jour le compteur
+        function updateCounter4() {
+            if (count4 <= 85) {
+                count4 += 1;
+                counter4.textContent = count4;
+                setTimeout(updateCounter4, 50); // ajustez le délai selon vos besoins
+            }
+        }
+        
+        // Appelle la fonction pour démarrer le compteur
+        updateCounter4();
+    </script>
+    
+</body>
+</html>

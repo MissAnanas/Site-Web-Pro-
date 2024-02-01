@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact_us {
+    text-align: center;
+    padding: 5%;
+}
+
+.contact_icon {
+    width: 7vw;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.contact_us_01 {
+    font-family: 'Noto sans', sans-serif;
+    margin-bottom: 2%;
+    font-size: 1vw;
+}
+
+.contact_title_01 {
+    margin-bottom: 2%;
+    font-size: 3vw;
+}
+
+.informations_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.promote_mail,
+.promote_number,
+.promote_location {
+  width: 20%;
+  height: min-content;
+  font-size: 1vw;
+}
+
+.assembly_icon_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.mail_icon_style,
+.phone_icon_style,
+.location_icon_style {
+    width: 20%;
+    height: auto;
+    margin-right: 5%;
+}
+
+.contact_register {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 80%;
+}
+
+.name_mail_register,
+.company_subject_register {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.name_register,
+.mail_register,
+.company_register,
+.subject_register {
+    width: 48%;
+}
+
+.message_register {
+    margin-bottom: 5%;
+}
+
+.submit_button {
+    width: 100%;
+}
+
+#box_promote {
+    border-radius: 20px;
+    border: 1vw solid;
+    border-image: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    border-image-slice: 1;
+    padding: 1%;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+#separation_line {
+  width: 17vw;
+  height: auto;
+}

@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+h1 {
+    font-family: 'Nunito';
+}
+
+.font {
+    width: 100%;
+}
+
+.container {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    margin: 0 10%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mySlides {
+    display: none;
+    position: relative;
+    width: 100%;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.mySlides {
+    margin: auto;
+    width: 30%;
+    height: 500px;
+    padding: 50px 40px 50px 40px;
+    border-radius: 30px;
+    border: 1px;
+    gap: 10px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%), linear-gradient(0deg, #424245, #424245);
+    border: 1px solid #424245;
+}
+
+#superposer1 {
+    background-image: url(image2.png);
+}
+
+#superposer {
+    background-image: url(image4.png);
+    padding: 9%;
+}
+
+#buttons1 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 5% 40%;
+}
+
+.button {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    width: 100px;
+    height: auto;
+    padding: 10% 1%;
+}
+
+.button1 {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 100px;
+    height: auto;
+    padding: 10% 1%;
+}
+
+.dotslide{
+    text-align: center;
+    padding: 2%;
+}
+
+#icon {
+    height: auto;
+    background-color: #292930;
+    border-radius: 100px;
+}
+
+#white{
+    color: #FFFFFF
+}
+
+#black{
+    color: #000000;
+}
+
+.carte-container{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.carte {
+    margin: 1%;
+    width: 20%;
+    height: 500px;
+    padding: 50px 40px 50px 40px;
+    border-radius: 30px;
+    border: 1px;
+    gap: 10px;
+    background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    border: 1px solid #DCDCDC
+}
+
+#icon1 {
+    height: 50%;
+    width: auto;
+    background-color: #CA87FF;
+
+    border-radius: 100px;
+}
+
+.compteur {
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Nunito';
+    display: inline-flex;
+    padding: 5%;
+}
+
+.counter{
+    padding: 0 9vw;
+}
