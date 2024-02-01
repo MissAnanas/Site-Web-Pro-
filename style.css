@@ -2,16 +2,7 @@ body {
     margin: 0%;
 }
 
-.pagebanner {
-    background-image: url(Banner\ Image.png);
-    width: 1920px;
-    height: 1156px;
-}
-
-.pageservices {
-    background-color: #292930;
-}
-
+/* CSS HEADER */
 header {
     display: flex;
     flex-direction: row;
@@ -51,7 +42,7 @@ header {
     float: right;
     display: flex;
     align-items: center;
-    height: 81.16px;
+    height: 64px;
 }
 
 .bheader {
@@ -81,7 +72,19 @@ header {
   .bheader:hover::after {
     transform: scaleX(1); 
   }
-  
+  /*FIN CSS HEADER */
+
+
+
+
+
+
+  /* CSS BANNER */
+.pagebanner {
+  background-image: url(Banner\ Image.png);
+  height: 1156px;
+}
+
   .title {
     font-family: "Noto Sans";
     font-size: 15px;
@@ -133,6 +136,33 @@ header {
     font-size: 18px;
     color: #292930;
   }
+  /* FIN CSS BANNER */
+
+
+
+
+
+
+  /* CSS SERVICES */
+  .backgroundservices {
+    background-color: #292930;
+    height: 1623px;
+
+}
+
+.pageservices {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.column1 {
+  display: flex;
+}
+
+.column2 {
+  display: flex;
+}
 
   
 
