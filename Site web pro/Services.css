@@ -43,6 +43,7 @@
     align-items: center;
     justify-content: flex-start;
     position: relative;
+    top:153px ;
 }
 
 .Heading {
@@ -134,6 +135,7 @@
     flex-shrink: 0;
     width: 1200px;
     position: relative;
+    
   }
   ._2 {
     background: linear-gradient(
@@ -154,6 +156,7 @@
     flex-shrink: 0;
     width: 352px;
     position: relative;
+    
   }
 
 ._12 {
@@ -185,7 +188,9 @@
     justify-content: flex-start;
     flex-shrink: 0;
     width: 274px;
+    height: 393px;
     position: relative;
+    
   }
 
   .text {
@@ -250,6 +255,7 @@
     flex-shrink: 0;
     width: 352px;
     position: relative;
+    
   }
 
   .analyse-avanc-e {
@@ -291,6 +297,7 @@
     flex-shrink: 0;
     width: 352px;
     position: relative;
+    top: 67px;
   }
 
   ._023-startup {
@@ -328,6 +335,7 @@
     flex-shrink: 0;
     width: 352px;
     position: relative;
+    top: 67px;
   }
 
   .tunnel-optimisation {
@@ -359,6 +367,7 @@
     flex-shrink: 0;
     width: 352px;
     position: relative;
+    top: 67px;
   }
 
   .marketing-de-contenu {
@@ -371,3 +380,85 @@
     position: relative;
   }
 
+.button{
+  width: 266px;
+  height: 62px;
+  display: flex;
+  padding: 17px 70px 18px 70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7px;
+  border: 1px solid #535355;  
+  background-color: #292930;
+  color: #292930;
+
+  text-align: center;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: color=#535355;
+  font-weight: 500;
+  line-height: 160%; /* 28.8px */
+  text-transform: capitalize;
+}
+.CTA{
+  width: 1200px;
+  height: 433.14px;
+  top: 2336.43px;
+  left: 360px;
+  border-width: 0px, 0px, 0px, 0px;
+  border-style: solid;
+  background-image: url(BackgroundCTA.png);
+
+}
+
+.CTA-content{
+  display: flex;
+  width: 588px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+  top: 123px;
+  left: 69.5px;
+
+
+}
+
+.CTA-text{
+  width: 594px;
+  height: 100px;
+
+  font-family: Nunito;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+button:is(:hover, :focus) {
+  background-color: #FFDC60;
+}
+
+.CTA-button1{
+  display: flex;
+  padding: 17px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7px;
+  background: #292930;  
+}
+
+.CTA-button2{
+  display: flex;
+  padding: 17px 38px 18px 38px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7px;
+  border: 1.5px solid #292930;
+}
