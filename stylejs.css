@@ -1,0 +1,10 @@
+.star {
+    cursor: pointer;
+    font-size: 18px;
+    color: grey;
+}
+
+.star:hover,
+.star:hover ~ .star{
+    color: gold;
+}

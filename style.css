@@ -150,16 +150,27 @@ height: 30px;
 
 }
 
-.link{
+.link {
   color: white;
   padding-top: 30px;
-  position: absolute;
+  position: relative;
   text-decoration: none;
 }
 
+.reseau{
+  color: white;
+}
 
+.icspeaker{
+  width: 20px;
+  height: 16px;
+}
 
-
+.allreseau{
+  margin-left: 0%;
+  color: white;
+  align-items: right;
+}
 
 
 
