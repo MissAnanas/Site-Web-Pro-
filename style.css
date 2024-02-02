@@ -82,7 +82,7 @@ header {
   /* CSS BANNER */
 .pagebanner {
   background-image: url(Banner\ Image.png);
-  height: 1156px;
+  height: 1090px;
 }
 
   .title {
@@ -146,14 +146,63 @@ header {
   /* CSS SERVICES */
   .backgroundservices {
     background-color: #292930;
-    height: 1623px;
+    height: 1850px;
+    display: flex;
+    justify-content: center;
+}
 
+.containertitle {
+  gap: 39px;
+  display: flex;
+  margin-left: 72px;
+  margin-bottom: 90px;
+}
+
+.titlesrvc {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.135em;
+  text-align: left;
+  color: white;
+}
+
+
+.services {
+  font-family: "Nunito";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  width: 620px;
+  margin-bottom: 0%;
+}
+
+.btnservices2 {
+  width: 178px;
+  height: 62px;
+  padding: 17px 24px 18px 24px;
+  border-radius: 7px;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.logotitle {
+  width: 88px;
+  height: 88px;
 }
 
 .pageservices {
   display: flex;
   flex-direction: column;
-  width: 1200px;
+  margin-top: 12%;
 }
 
 .column1 {
@@ -164,6 +213,61 @@ header {
   display: flex;
 }
 
+.containerservices {
+  width: 1200px;
+}
+
+.service {
+  background: linear-gradient(180deg, #36363E 0%, #292930 100%), linear-gradient(0deg, #424245, #424245);
+  width: 352px;
+  border-radius: 30px;
+  padding: 41px 39px 41px 39px;
+  margin: 40px;
+  border: 1px solid #424245
+}
+
+.titleservice {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-wrap: nowrap;
+  width: 274px;
+
+}
+
+.txtservice {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.btnservices3 {
+  width: 266px;
+  height: 62px;
+  padding: 17px 70px 18px 70px;
+  border-radius: 7px;
+  background: #FFDC60;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.abtn {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 225px;
+}
   
 
 
