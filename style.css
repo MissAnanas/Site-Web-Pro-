@@ -15,6 +15,7 @@
     src: url('Tryptic.ttf') format('truetype');
 }
 
+<<<<<<< Updated upstream
 .ajouter_question {
     display: flex;
     
@@ -98,6 +99,72 @@ nav a {
     width: 50%;
     border: 10px solid rgb(22, 2, 2);
     border-radius: 10px;
+=======
+.img{
+  display: flex; 
+  width: 18vw;
+  height: auto;
+}
+
+footer{
+  background-color: rgba(41,41,48,255);
+  padding: 10%;
+
+}
+
+.textfooter{
+  display: flex; 
+  color: white;
+  width: max-content;
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+.titrenews{
+  color: white;
+  font-size: 2.2vw;
+  margin: 10% 0 0 0;
+  text-decoration: underline;
+}
+
+.newsletter{
+  background-color: rgba(60,60,69,255);
+  display: flex;
+  width: 25vw;
+  height: 40vw;
+  align-items: center;
+  flex-direction: column;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.inputnewsletter{
+  display: flex; 
+  background-color: rgba(41,41,48,255);
+  align-items: center;
+  height: 4vw;
+  width: 20vw;
+  margin: auto;
+  border-radius: 10px;
+
+}
+
+.container{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icontel{
+  height: 1.5vw;
+  width: auto;
+}
+
+.titleh2{
+  color: white;
+  margin-left: 5%;
+>>>>>>> Stashed changes
 }
 
 .perso1 {
@@ -112,6 +179,7 @@ nav a {
     margin-left: 5%;
 }
 
+<<<<<<< Updated upstream
 .description {
     text-align: center;
     background-color: rgb(22, 2, 2);
@@ -152,6 +220,28 @@ p {
     background-color: rgb(22, 2, 2);
     align-self: center;
     border-radius: 200px; 
+=======
+.tel, .pageicon, .reseauicon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.rue{
+  color: white;
+}
+
+.MAP{
+  color: rgba(255,220,100);
+  padding-top: 1%;
+  position:relative;
+}
+
+.adresse{
+  padding-left: 10%;
+>>>>>>> Stashed changes
 }
 
 .footer {
@@ -165,6 +255,7 @@ p {
     z-index: 100;
 }
 
+<<<<<<< Updated upstream
 .footer-content {
     display: flex;
     justify-content: center;
@@ -178,6 +269,155 @@ p {
 .footer-content .MiniLogo img {
     height: 40px;
     width: auto;
+=======
+.lampe{
+  width: auto;
+  height: 1.5vw;
 }
 
 
+
+.icpage{
+width: auto;
+height: 2vw;
+}
+
+.page, .reseau{
+  color: white;
+}
+
+.allpage{
+  position: relative;
+}
+
+.link {
+  color: white;
+  position: relative;
+  text-decoration: none;
+}
+
+.reseau{
+  color: white;
+}
+
+.icspeaker{
+  width: auto;
+  height: 1.5vw;
+}
+
+.allreseau{
+  position: relative;
+  padding-left: 10%;
+  top: -9%;
+>>>>>>> Stashed changes
+}
+
+.bottomfooter{
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+<<<<<<< Updated upstream
+=======
+.blockfooter{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20% 0 10%;
+}
+
+.topfooter{
+  display: flex;
+  margin-bottom: 5%;
+}
+
+#marge{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  will-change: transform;
+  display: flex; 
+  margin-left: 43%;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.button-yellow {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255,220,100);
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1.5vw;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  height: 4vw;
+  width: 20vw;
+  margin: auto;
+}
+
+.button-yellow:disabled {
+  pointer-events: none;
+}
+
+.button-yellow:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-yellow:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+>>>>>>> Stashed changes
