@@ -1,0 +1,53 @@
+img{
+    max-width: 100%;
+}
+
+footer{
+    background-color: rgba(41,41,48,255);
+}
+
+.footer_container {
+    display: inline-flex;
+}
+
+.top, .bottom{
+    display: inline-flex;
+}
+
+.tel_container{
+    margin: 10%;
+}
+
+.tel_nb{
+    color: rgba(255,220,100);
+    background-color: rgba(60,60,69,255);
+    display: flex;
+    border-radius: 7px;
+    padding: 1.5vw;
+    font-size: 3vw;
+    justify-content: center;
+    min-width: 100%
+  
+}
+
+.mail{
+    color: white;
+    font-size: 3vw;
+}
+
+.tel{
+    display: inline-flex;
+    align-items: center;
+    min-width: 100%
+}
+
+.tel_title{
+    color: white;
+    font-size: 3vw;
+}
+
+.tel_icon{
+    width: auto;
+    height: 4vw;
+    margin: 1%;
+  }

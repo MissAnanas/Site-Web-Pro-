@@ -1,297 +1,158 @@
-@import url(TailleAjustableV2.css);
-@import url(GestionCadres.css);
-@import url(contactcss.css);
-@import url(Aproposcss.css);
-@import url(Galerie.css);
-@import url(Menu.css);
-
-@font-face {
-    font-family: 'Windlass';
-    src: url('Windlass.ttf') format('truetype');
+.texte{
+  display: flex; 
+  justify-content: center;
 }
 
-@font-face {
-    font-family: 'Tryptic';
-    src: url('Tryptic.ttf') format('truetype');
+.img404{
+  display: flex; 
+  padding-left: 32%;
 }
 
-<<<<<<< Updated upstream
-.ajouter_question {
-    display: flex;
-    
-}
-
-header {
-    text-align: center;
-    transition: all 0.3s;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    z-index: 0;
-    position: static;
-}
-
-header.scrolled {
-    height: 60px;
-    line-height: 60px;
-}
-
-header img {
-    max-width: 100%;
-}
-
-.Titre {
-    display: inline-block;
-    margin: 0;
-    position: sticky;
-    padding-top: 0%;
-    z-index: 5;
-}
-
-body {
-    background-image: url('sot1.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Windlass', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(22, 2, 2);
-}
-
-nav {
-    text-align: center;
-    font-family:'Windlass';
-}
-
-nav a {
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    margin: 0;
-    margin-top: 0;
-}
-
-.Partie-container {
-    position: sticky;
-    top: 0;
-    z-index: 3;
-
-}
-
-.animated-button {
-    border: 1px solid rgb(255, 255, 255);
-    padding: 1%;
-    display:inline-block;
-    margin: 0;
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    background-color: rgb(22, 2, 2);
-}
-
-.perso-container {
-    display: inline-flex;
-    align-content: center;
-    margin-top: 10%;
-}
-
-.perso-container video {
-    height: 50%;
-    width: 50%;
-    border: 10px solid rgb(22, 2, 2);
-    border-radius: 10px;
-=======
 .img{
   display: flex; 
-  width: 18vw;
-  height: auto;
+  padding-left: 10%;
 }
 
 footer{
   background-color: rgba(41,41,48,255);
-  padding: 10%;
-
+  height: 1034px;
+  width: 1920px;
 }
 
 .textfooter{
   display: flex; 
+  margin-left: 10%;
   color: white;
-  width: max-content;
-  font-size: 1.5vw;
-  margin: 0;
-}
-
-.titrenews{
-  color: white;
-  font-size: 2.2vw;
-  margin: 10% 0 0 0;
-  text-decoration: underline;
 }
 
 .newsletter{
   background-color: rgba(60,60,69,255);
-  display: flex;
-  width: 25vw;
-  height: 40vw;
+  width: 399px;
+  height: 652px;
   align-items: center;
-  flex-direction: column;
-  padding: 2%;
-  border-radius: 20px;
+  padding: 49px, 53px, 49px, 53px;
+  margin-left: 10%;
+  float: left;
 }
 
 .inputnewsletter{
   display: flex; 
   background-color: rgba(41,41,48,255);
   align-items: center;
-  height: 4vw;
-  width: 20vw;
+  height: 62px;
+  width: 293px;
   margin: auto;
-  border-radius: 10px;
 
 }
 
 .container{
-  height: auto;
-  width: 100%;
+  height: 652px;
+  width: 1200px;
   display: flex;
   justify-content: center;
+  padding-top: 10%;
 }
 
 .icontel{
-  height: 1.5vw;
-  width: auto;
+  width: 22px;
+  height: 22px;
 }
 
 .titleh2{
   color: white;
-  margin-left: 5%;
->>>>>>> Stashed changes
+  margin: 0%;
+  width: 244px;
+  height: 28px;
+  font-size: 25px;
 }
 
-.perso1 {
-    width: 22%;
-    height: 22%;
-    margin-left: 3%;
+.titleh1{
+  color: rgba(255,220,100);
+  background-color: rgba(60,60,69,255);
+  height: 62px;
+  width: 255px;
+  display: flex;
+  align-items: center;
+  margin: 5%;
+  margin-left: 0%;
+  border-radius: 7px;
+  font-size: 25px;
+  justify-content: center;
+
 }
 
-.perso2 {
-    width: 15%;
-    height: 15%;
-    margin-left: 5%;
+.mail{
+  color: white;
+  font-size: 18px;
 }
 
-<<<<<<< Updated upstream
-.description {
-    text-align: center;
-    background-color: rgb(22, 2, 2);
-    color: rgb(200, 188, 162);
-    padding: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    max-height: 200px;
-    overflow: auto;
-    margin-top: 10%;
-    font-style: italic;
-}
-
-h2 {
-    font-family: 'Windlass';
-    text-align: center;
-    color: rgb(255, 255, 255);
-    margin-top: 5%;
-    margin-bottom: 1%;
-}
-
-h3 {
-    font-size: 135%;
-    font-style:italic;
-    text-decoration: underline;
-}
-
-p {
-    color: rgb(200, 188, 162);
-}
-
-.cadrelien {
-    display: block;
-    background-size: cover;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-    color: rgb(200, 188, 162);
-    background-color: rgb(22, 2, 2);
-    align-self: center;
-    border-radius: 200px; 
-=======
-.tel, .pageicon, .reseauicon{
+.tel{
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
-
+.content{
+  margin-left: 200px;
+}
 
 .rue{
   color: white;
+  size: 18px;
+  padding-top: 6%;
 }
 
 .MAP{
   color: rgba(255,220,100);
   padding-top: 1%;
-  position:relative;
+  position:absolute;
 }
 
 .adresse{
   padding-left: 10%;
->>>>>>> Stashed changes
+  width: 200px;
 }
 
-.footer {
-    background: #000;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    z-index: 100;
+.lieu{
+  color: white;
+  margin: 0%;
+  padding-left: 2%;
 }
 
-<<<<<<< Updated upstream
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer img {
-    width: 45px; 
-    margin-right: 20px;
-}
-
-.footer-content .MiniLogo img {
-    height: 40px;
-    width: auto;
-=======
 .lampe{
-  width: auto;
-  height: 1.5vw;
+  width: 19px;
+  height: 25px;
 }
 
-
+.barre{
+  width: 702px;
+  Border: 1px;
+  height: 2px;
+  bottom: 6pc;
+  position: absolute;
+  padding-left: 42%;
+}
 
 .icpage{
-width: auto;
-height: 2vw;
+width: 30px;
+height: 30px;
 }
 
-.page, .reseau{
+.page{
   color: white;
+  margin: 0%;
+  padding-left: 2%;
 }
 
 .allpage{
-  position: relative;
+  padding-top: 15%;
+  position: absolute;
+  padding-left: 9%;
+
 }
 
 .link {
   color: white;
+  padding-top: 30px;
   position: relative;
   text-decoration: none;
 }
@@ -301,40 +162,19 @@ height: 2vw;
 }
 
 .icspeaker{
-  width: auto;
-  height: 1.5vw;
+  width: 20px;
+  height: 16px;
 }
 
 .allreseau{
-  position: relative;
-  padding-left: 10%;
-  top: -9%;
->>>>>>> Stashed changes
+  margin-left: 0%;
+  color: white;
+  align-items: right;
 }
 
-.bottomfooter{
-  display: flex;
-  align-items: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
 
-<<<<<<< Updated upstream
-=======
-.blockfooter{
-  display: flex;
-  flex-direction: column;
-  margin: 0 20% 0 10%;
-}
 
-.topfooter{
-  display: flex;
-  margin-bottom: 5%;
-}
 
-#marge{
-
-}
 
 
 
@@ -394,17 +234,32 @@ height: 2vw;
 }
 
 .button-yellow {
-  display: flex;
-  justify-content: center;
+  appearance: none;
   background-color: rgba(255,220,100);
-  border-radius: 10px;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
   box-sizing: border-box;
+  color: #FFFFFF;
   cursor: pointer;
-  font-size: 1.5vw;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  height: 4vw;
-  width: 20vw;
-  margin: auto;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+  will-change: transform;
+  display: flex; 
+  margin-left: 32%;
 }
 
 .button-yellow:disabled {
@@ -420,4 +275,3 @@ height: 2vw;
   box-shadow: none;
   transform: translateY(0);
 }
->>>>>>> Stashed changes
