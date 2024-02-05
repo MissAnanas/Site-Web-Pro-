@@ -405,10 +405,8 @@
 .CTA{
   width: 1200px;
   height: 433.14px;
-  top: 2336.43px;
-  left: 360px;
-  border-width: 0px, 0px, 0px, 0px;
-  border-style: solid;
+  margin-top: 107.37px;
+  margin-left: 360px;
   background-image: url(BackgroundCTA.png);
 
 }
@@ -419,7 +417,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 56px;
-  top: 123px;
+  margin-top: 123px;
   left: 69.5px;
 
 
@@ -461,4 +459,164 @@ button:is(:hover, :focus) {
   gap: 10px;
   border-radius: 7px;
   border: 1.5px solid #292930;
+}
+
+
+footer{
+  background-color: rgba(41,41,48,255);
+  height: 1034px;
+  width: 1920px;
+}
+
+.textfooter{
+  display: flex; 
+  margin-left: 10%;
+  color: white;
+}
+
+.newsletter{
+  background-color: rgba(60,60,69,255);
+  width: 399px;
+  height: 652px;
+  align-items: center;
+  padding: 49px, 53px, 49px, 53px;
+  margin-left: 10%;
+  float: left;
+}
+
+.inputnewsletter{
+  display: flex; 
+  background-color: rgba(41,41,48,255);
+  align-items: center;
+  height: 62px;
+  width: 293px;
+  margin: auto;
+
+}
+
+.container{
+  height: 652px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.icontel{
+  width: 22px;
+  height: 22px;
+}
+
+.titleh2{
+  color: white;
+  margin: 0%;
+  width: 244px;
+  height: 28px;
+  font-size: 25px;
+}
+
+.titleh1{
+  color: rgba(255,220,100);
+  background-color: rgba(60,60,69,255);
+  height: 62px;
+  width: 255px;
+  display: flex;
+  align-items: center;
+  margin: 5%;
+  margin-left: 0%;
+  border-radius: 7px;
+  font-size: 25px;
+  justify-content: center;
+
+}
+
+.mail{
+  color: white;
+  font-size: 18px;
+}
+
+.tel{
+  display: flex;
+  flex-direction: row;
+}
+
+.content{
+  margin-left: 200px;
+}
+
+.rue{
+  color: white;
+  size: 18px;
+  padding-top: 6%;
+}
+
+.MAP{
+  color: rgba(255,220,100);
+  padding-top: 1%;
+  position:absolute;
+}
+
+.adresse{
+  padding-left: 10%;
+  width: 200px;
+}
+
+.lieu{
+  color: white;
+  margin: 0%;
+  padding-left: 2%;
+}
+
+.lampe{
+  width: 19px;
+  height: 25px;
+}
+
+.barre{
+  width: 702px;
+  Border: 1px;
+  height: 2px;
+  bottom: 6pc;
+  position: absolute;
+  padding-left: 42%;
+}
+
+.icpage{
+width: 30px;
+height: 30px;
+}
+
+.page{
+  color: white;
+  margin: 0%;
+  padding-left: 2%;
+}
+
+.allpage{
+  padding-top: 15%;
+  position: absolute;
+  padding-left: 9%;
+
+}
+
+.link {
+  color: white;
+  padding-top: 30px;
+  position: relative;
+  text-decoration: none;
+}
+
+.reseau{
+  color: white;
+}
+
+.icspeaker{
+  width: 20px;
+  height: 16px;
+}
+
+.allreseau{
+  margin-left: 0%;
+  color: white;
+  align-items: right;
 }
