@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>password_protected</title>
     <link href="password_protected_styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
     <style>
@@ -18,7 +19,7 @@
                 <h1>Page protégée</h1>
                 <p>Accès administrateur Promote</p>
 
-            <form action="">
+            <form action="login.php" method="post">
                 <input type="password" class="enter_password" name="password" placeholder="Entrez votre Mot de Passe">
                 <input type="submit" value="Envoyer" class="submit_button">
             </form>
@@ -28,35 +29,3 @@
 
 </body>
 </html>
-
-<?php
-    if(isset($_GET['login_err'])){
-        $err = htmlspecialchars($_GET['login_err']);
-        switch($err){
-            case 'mdp':
-                ?>
-                <div class="alert alert-danger">
-                    <strong>Erreur</strong> mot de passe incorrect
-                </div>
-            <?php
-            break;
-
-            case 'mail':
-                ?>
-                <div class="alert alert-danger">
-                    <strong>Erreur</strong> email incorrect
-                </div>
-            <?php
-            break;
-
-            case 'already':
-                ?>
-                <div class="alert alert-danger">
-                    <strong>Erreur</strong> compte non existant
-                </div>
-            <?php
-            break;
-        }
-    }
-
-?>
