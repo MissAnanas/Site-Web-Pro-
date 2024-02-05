@@ -1,0 +1,134 @@
+img{
+    max-width: 15vw;
+}
+
+footer{
+    background-color: rgba(41,41,48,255);
+}
+
+
+
+.footer_container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.top, .bottom{
+    display: inline-flex;
+}
+
+.tel_container, .adresse_container, .page_container, .reseau_container{
+    margin: 3vw;
+    width: 100%;
+}
+
+.tel_nb{
+    color: rgba(255,220,100);
+    background-color: rgba(60,60,69,255);
+    display: flex;
+    border-radius: 7px;
+    padding: 0.95vw;
+    font-size: 1.7vw;
+    justify-content: center;
+    min-width: 100%
+  
+}
+
+.rue{
+    font-size: 1.45vw;
+    color: white;
+    width: 20.2vw;
+}
+
+.mail, .MAP{
+    color: white;
+    font-size: 1.7vw;
+}
+
+.MAP{
+    color: rgba(255,220,100);
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.45vw;
+    margin: 1%;
+}
+
+.tel, .adresse, .page, .reseau{
+    display: inline-flex;
+    align-items: center;
+    min-width: 100%
+}
+
+.tel_title, .adresse_title{
+    color: white;
+    font-size: 1.7vw;
+    width: 15.2vw;
+}
+
+.page_title, .reseau_title{
+    color: white;
+    font-size: 1.7vw;
+    width: 7.7vw;
+}
+
+.tel_icon, .adresse_icon, .page_icon{
+    width: auto;
+    height: 2vw;
+    margin: 1%;
+}
+
+.reseau_icon{
+    width: auto;
+    height: 1.7vw;
+    margin: 1%;
+}
+
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(60,60,69,255);
+    align-items: center;
+    padding: 5%;
+    margin: 10% 10% 10% 5%;
+    border-radius: 20px;
+}
+
+.input_news{
+    display: flex; 
+    background-color: rgba(41,41,48,255);
+    align-items: center;
+    width: 17.7vw;
+    height: 5.2vw;
+    font-size: 1.7vw;
+}
+
+.textfooter{
+    display: flex; 
+    color: white;
+    font-size: 1.45vw;
+}
+
+.texttitle{
+    display: flex; 
+    color: white;
+    font-size: 1.95vw;
+}
+
+.button_footer{
+    background-color: rgba(255,220,100);
+    border-radius: 20px;
+    margin: 2%;
+    align-items: center;
+    width: 17.7vw;
+    height: 2.7vw;
+    font-size: 1.7vw;
+}
+
+.barre{
+    width: 50%;
+}
