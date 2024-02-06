@@ -410,13 +410,103 @@ line-height: 28px;
   line-height: 44px;
 }
 
-.titleproccess {
+.titleproccessus {
   margin-top: 34px;
   margin-bottom: 20px;
   font-family: "Noto Sans";
   font-size: 15px;
   letter-spacing: 0.135em;
 }
+
+.containerprocess1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: 30px;
+  width: 332px;
+}
+
+.containerprocess3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+  width: 332px;
+}
+
+.titlestep2 {
+  text-align: right;
+}
+
+.imgstep1 {
+  width: 292.36px;
+  height: 179.13px;
+}
+
+.imgstep3 {
+  width: 404.36px;
+  height: 297.96px;
+}
+
+.imgstep2{
+  width: 287px;
+  height: 263px;  
+}
+
+
+.titleproccess {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.txtproccess {
+  font-family: "Noto Sans";
+  font-size: 18px;
+}
+
+.schema {
+  display: flex;
+  margin-top: 8%;
+  height: 857px;
+  justify-content: center;
+}
+
+.number1{
+  width: 86px;
+  height: 86px;
+  z-index: 1;
+  margin-top: 32px;
+}
+.number2 {
+  width: 86px;
+  height: 86px;
+  z-index: 1;
+  margin-top: 220px;
+}
+.number3 {
+  width: 86px;
+  height: 86px;
+  z-index: 1;
+  margin-top: 320px;
+}
+
+.positionbarre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barreproccess {
+  width: 1.5px;
+  height: 696px;
+  position: absolute;
+  margin-top: 68px;
+}
+
+
   /* FIN CSS PROCCESS */
 
 
@@ -737,6 +827,104 @@ line-height: 28px;
 
 /* CSS BLOG */
 
+.tag {
+  display: flex;
+  justify-content: space-between;
+  width: 435px;
+}
+
+.contentblog1 {
+  display: flex;
+  width: 1199px;
+  padding: 85px 90px 85px 90px;
+  background-color: #FFF3CA;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.contentblog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.txtblog1 {
+  width: 470px;
+  height: 338px; 
+}
+
+.titleblog1\.1 {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #292930;
+  width: 123px;
+  height: 45px;
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleblog1\.2 {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.135em;
+  display: flex;
+  align-items: center;
+}
+
+.marketingtxt1 {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.marketingtxt2 {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 6%;
+}
+
+.btnblog {
+  width: 143px;
+  height: 64px;
+  padding: 17px 24px 18px 24px;
+  border-radius: 7px;
+  border: none;
+  font-family: "Nunito";
+  font-size: 18px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentblog2 {
+  display: flex;
+  width: 1199px;
+  padding: 85px 90px 85px 90px;
+  background-color: #E9F7FF;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.btnblog2 {
+  width: 210px;
+  height: 64px;
+  padding: 17px 35px 18px 35px;
+  border-radius: 7px;
+  background: #292930;
+  font-family: "Nunito";
+  font-size: 18px;
+  color: white;
+  border: none;
+  margin-top: 54px;
+}
 
 
 
