@@ -1,0 +1,702 @@
+body {
+    margin: 0%;
+}
+
+/* CSS HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    width: 1402px;
+    padding-left: 345px;
+    height: 81.16px;
+    padding-top: 56px;
+}
+
+.logo {
+    height: 81.16px;
+    width: 239px;
+    padding-right: 147px;
+}
+
+.btnheader {
+    font-family: "Nunito";
+    font-size: 18px;
+    padding: 17px 39px 18px 39px;
+    background-color:  #292930;
+    color: white;
+    border-radius: 7px;
+    width: 156px;
+    height: 64px;
+}
+
+.txtheader {
+    font-family: "Nunito";
+    font-size: 18px;
+    line-height: 28.8px;
+    width: 1010px;
+    position: relative;
+    
+}
+
+.txtheader .btnheader {
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+.bheader {
+    position: relative;
+    float: left;
+    width: 150px;
+    color: #292930;
+    text-decoration: none;
+    height: 81.16px;
+    display: flex;
+    align-items: center;
+}
+
+.bheader::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 45%;
+    height: 3px; 
+    background: linear-gradient(to right, #FFDC60 50%, #5956E8 50%); 
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+    transition: transform 0.3s ease; 
+  }
+  
+  .bheader:hover::after {
+    transform: scaleX(1); 
+  }
+
+
+  /*FIN CSS HEADER */
+
+
+
+
+
+
+  /* CSS BANNER */
+.pagebanner {
+  background-image: url(Banner\ Image.png);
+  height: 115vh;
+}
+
+  .title {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 0%;
+  }
+
+  .title2 {
+    font-family: "Nunito";
+    font-size: 70px;
+    line-height: 77.35px;
+    margin-top: 28px;
+    font-weight: bold;
+  }
+
+  .container {
+    margin-left: 360px;
+    padding-top: 184px;
+    width: 740px;
+  }
+
+  .latin {
+    font-size: 18px;
+    font-family: "Noto Sans";
+    width: 593px;
+    line-height: 28.17px;
+    margin-top: 34px;
+  }
+
+  .btnservices {
+    width: 183px;
+    height: 64px;
+    border-radius: 7px;
+    padding: 17px, 39px, 18px, 39px;
+    background-color: #292930;
+    font-family: "Nunito";
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+  }
+
+  .btnstart {
+    width: 156px;
+    height: 64px;
+    border-radius: 7px;
+    padding: 17px, 39px, 18px, 39px;
+    background-color: transparent;
+    font-family: "Nunito";
+    font-size: 18px;
+    color: #292930;
+  }
+  /* FIN CSS BANNER */
+
+
+
+
+
+
+  /* CSS SERVICES */
+  .backgroundservices {
+    background-color: #292930;
+    height: 1750px;
+    display: flex;
+    justify-content: center;
+}
+
+.containertitle {
+  gap: 39px;
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.titlesrvc {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.135em;
+  text-align: left;
+  color: white;
+}
+
+
+.services {
+  font-family: "Nunito";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  width: 620px;
+  margin-bottom: 0%;
+}
+
+.btnservices2 {
+  width: 178px;
+  height: 62px;
+  padding: 17px 24px 18px 24px;
+  border-radius: 7px;
+  font-family: "Nunito";
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotitle {
+  width: 88px;
+  height: 88px;
+}
+
+.pageservices {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12%;
+}
+
+.column1 {
+  display: flex;
+}
+
+.column2 {
+  display: flex;
+}
+
+.containerservices {
+  width: 1200px;
+}
+
+.service {
+  background: linear-gradient(180deg, #36363E 0%, #292930 100%), linear-gradient(0deg, #424245, #424245);
+  width: 352px;
+  border-radius: 30px;
+  padding: 41px 39px 41px 39px;
+  margin: 40px;
+  border: 1px solid #424245
+}
+
+.titleservice {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-wrap: nowrap;
+  width: 274px;
+
+}
+
+.txtservice {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.btnservices3 {
+  width: 266px;
+  height: 62px;
+  padding: 17px 70px 18px 70px;
+  border-radius: 7px;
+  background: transparent;
+  font-family: "Nunito";
+  font-size: 18px;
+  line-height: 29px;
+  border: 1px solid #424245;
+  color: #525255;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.btnservices3:hover {
+  background-color: #FFDC60;
+  color: black;
+  border: 1px solid black;
+}
+
+.btnservices3:hover img {
+  content: url("Vector\ purple.png");
+}
+
+.abtn {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 255px;
+}
+
+a {
+  text-decoration: none;
+}
+  /* FIN CSS SERVICES */
+
+
+
+
+
+
+
+
+  /* CSS ABOUT */
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  height: 851px;
+}
+
+.iconabout {
+  width: 88px;
+  height: 88px;
+}
+
+.containertitle2 {
+  display: flex;
+  width: 652px;
+  height: 129px;
+  gap: 39px;
+}
+
+.titleabout {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  letter-spacing: 0.135em;
+  margin: 0%;
+}
+
+.digital {
+  font-family: "Nunito";
+  font-size: 40px;
+  line-height: 44px;
+  margin: 0%;
+}
+
+.heading {
+  width: 653px;
+  height: 284px;
+}
+
+.txt1 {
+font-family: "Noto Sans";
+font-size: 18px;
+line-height: 28px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+}
+
+.circle2 {
+  display: flex;
+  align-items: center;
+}
+
+.points {
+  width: 570px;
+  margin-left: auto;
+}
+
+.titlepoints {
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 0.5%;
+  font-family: "Nunito";
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.txt2 {
+  margin-left: 99px;
+  margin-top: -4%;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 28px;
+}
+  /* FIN CSS ABOUT */
+
+
+
+
+
+
+
+
+
+
+
+  /* CSS PROCCESS */
+
+.pageproccess {
+  background-image: url(Background.png);
+  width: 1200px;
+  height: 1444px;
+  margin: auto;
+}
+
+.heading2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12%;
+  margin-top: 8%;
+}
+
+.processus {
+  margin: 0%;
+  text-align: center;
+  font-family: "Nunito";
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.titleproccess {
+  margin-top: 34px;
+  margin-bottom: 20px;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  letter-spacing: 0.135em;
+}
+  /* FIN CSS PROCCESS */
+
+
+
+
+
+
+
+
+  /* CSS TEMOIGNAGES */
+
+.imgtestimonial {
+  width: 88px;
+  height: 88px;
+}
+
+.heading3 {
+  display: flex;
+  justify-content: center;
+  width: 1199px;
+  height: 129px;
+  gap: 39px;
+}
+
+.btnnavig {
+  box-shadow: 0px 10px 12px 0px #C6C6C640;
+  width: 70px;
+  height: 70px;
+  border: 0.5px;
+  border-radius: 90px;
+
+}
+  /* FIN CSS TEMOIGNAGES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* CSS ETUDE DE CAS */
+  .backgroundproject {
+    background-color: #292930;
+    height: 1750px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.abtnproject {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 255px;
+}
+  /* FIN CSS ETUDE DE CAS */
+
+
+
+
+
+
+
+
+
+  /*CSS PRIX */
+.heading4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+
+.offre {
+  margin: 0%;
+  text-align: center;
+  font-family: "Nunito";
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.titlepricing {
+  margin-top: 34px;
+  margin-bottom: 20px;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  letter-spacing: 0.135em;
+}
+
+.containerpricing {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.containerprice {
+  padding: 45px 38px 45px 38px;
+  border-radius: 10px;
+  border: 1px solid #E2E2E2;
+  background-color: #F6F6F6;
+}
+
+.criteres {
+  display: flex;
+  align-items: center;
+}
+
+
+.imgyesno {
+  width: 16px;
+  height: 16px;
+  margin-right: 15px;
+}
+
+.btnprice {
+  width: 321px;
+  height: 64px;
+  border-radius: 7px;
+  gap: 10px;
+  background: #292930;
+  color: white;
+  border: none;
+  font-family: "Nunito";
+  font-size: 18px;
+}
+
+.aprice {
+  display: flex;
+  justify-content: center;
+}
+
+.txtprice {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 44px;
+  margin: 0%;
+}
+
+.iconandtitle {
+  display: flex;
+  align-items: center;
+}
+
+.imgprice1 {
+  width: 49.14px;
+  height: 51.61px;
+}
+
+.imgprice2 {
+  width: 36.43px;
+  height: 55px;
+}
+
+.imgprice3 {
+  width: 48.98px;
+  height: 49px;
+}
+
+.titleformule {
+  display: flex;
+  justify-content: center;
+  width: 223px;
+  font-family:"Nunito";
+  font-size: 25px;
+  margin: 0;
+}
+
+.titleprice {
+  display: flex;
+  width: 223px;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+.pricetag {
+  font-family: "Nunito";
+  font-size: 50px;
+  margin: 0;
+}
+
+.month {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  margin-top: 7%;
+}
+
+.line3 {
+  width: 100%;
+}
+
+.yesno {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.containerprice:hover {
+  background-color: #292930;
+}
+
+.containerprice:hover .txtprice {
+  color: white;
+}
+
+.containerprice:hover .btnprice {
+  background: #F6F6F6;
+  color: black;
+}
+
+.containerprice:hover h3 {
+  color: white;
+}
+
+.rectangle {
+  position: absolute;
+}
+
+.txtrectangle {
+  margin-left: 240px;
+  margin-top: 0;
+  margin-bottom: 120px;
+  background: #FFDC60;
+  width: 89px;
+  height: 40px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  justify-content: center;
+  font-weight: 600;
+}
+/* FIN CSS PRIX */
+
+
+
+
+
+
+
+
+/* CSS BENEFICES */
+.contentbenef {
+  display: flex;
+  width: 1199px;
+  height: 621px;
+}
+
+.heading5 {
+  display: flex;
+}
+
+.containertxt3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgbenifits {
+  width: 88px;
+  height: 88px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
