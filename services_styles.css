@@ -1,0 +1,480 @@
+
+.Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -30%;
+    position: relative;
+}
+
+img.icon {
+    width: 130%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_01{
+    color: white;
+    font-size: 150%;
+}
+
+.slash{
+    color: yellow;
+    font-size: 150%;
+}
+
+
+p.decription_01 {
+    color: white;
+    font-size: 250%;
+}
+
+.CTA{
+    display: flex;
+    justify-content: center;
+}
+
+.CTA-text{
+    font-size: 300%;
+    width: 50%;
+    margin: 0 5%;
+    position: relative;
+    top: -5%;
+}
+
+.boutons{
+    position: relative;
+    margin: 0 5%;
+}
+
+.CTA-button1, .CTA-button2{
+    font-size: 175%;
+    padding: 1%;
+    margin: 0 2% 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.CTA-button1{
+    background: #292930;
+}
+
+.CTA-button2{
+    background: rgba(255, 255, 255, 0);
+}
+
+#background_fusee{
+    background-image: url(Images/background_fusee.png);
+    width: 63%;
+    height: 433px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+}
+
+
+
+
+body {
+    margin: 0%;
+}
+
+/* CSS HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    width: 1402px;
+    padding-left: 345px;
+    height: 81.16px;
+    padding-top: 56px;
+}
+
+.logo {
+    height: 81.16px;
+    width: 239px;
+    padding-right: 147px;
+}
+
+.btnheader {
+    font-family: "Nunito";
+    font-size: 18px;
+    padding: 17px 39px 18px 39px;
+    background-color:  #292930;
+    color: white;
+    border-radius: 7px;
+    width: 156px;
+    height: 64px;
+}
+
+.txtheader {
+    font-family: "Nunito";
+    font-size: 18px;
+    line-height: 28.8px;
+    width: 1010px;
+    position: relative;
+    
+}
+
+.txtheader .btnheader {
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+
+.bheader {
+    position: relative;
+    float: left;
+    width: 150px;
+    color: #292930;
+    text-decoration: none;
+    height: 81.16px;
+    display: flex;
+    align-items: center;
+}
+
+.bheader::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 45%;
+    height: 3px; 
+    background: linear-gradient(to right, #FFDC60 50%, #5956E8 50%); 
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+    transition: transform 0.3s ease; 
+  }
+  
+  .bheader:hover::after {
+    transform: scaleX(1); 
+  }
+
+
+  /*FIN CSS HEADER */
+
+
+
+
+
+
+  /* CSS BANNER */
+.pagebanner {
+  background-image: url(Images/Banner\ Image.png);
+  height: 65vh;
+}
+
+  .title {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 0%;
+  }
+
+  .title_banner {
+    font-family: "Nunito";
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -10%;
+    margin-top: 300px;
+    font-size: 375%;
+    font-weight: bold;
+  }
+  /* FIN CSS BANNER */
+
+
+
+
+
+
+  /* CSS SERVICES */
+  .backgroundservices {
+    background-color: #292930;
+    height: 1750px;
+    display: flex;
+    justify-content: center;
+}
+
+.containertitle {
+  gap: 39px;
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.titlesrvc {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.135em;
+  text-align: left;
+  color: white;
+}
+
+
+.services {
+  font-family: "Nunito";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  width: 620px;
+  margin-bottom: 0%;
+}
+
+.btnservices2 {
+  width: 178px;
+  height: 62px;
+  padding: 17px 24px 18px 24px;
+  border-radius: 7px;
+  font-family: "Nunito";
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotitle {
+  width: 88px;
+  height: 88px;
+}
+
+.pageservices {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12%;
+  align-items: center;
+}
+
+.column1 {
+  display: flex;
+}
+
+.column2 {
+  display: flex;
+}
+
+.containerservices {
+  width: 1200px;
+}
+
+.service {
+  background: linear-gradient(180deg, #36363E 0%, #292930 100%), linear-gradient(0deg, #424245, #424245);
+  width: 352px;
+  border-radius: 30px;
+  padding: 41px 39px 41px 39px;
+  margin: 40px;
+  border: 1px solid #424245
+}
+
+.titleservice {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-wrap: nowrap;
+  width: 274px;
+
+}
+
+.txtservice {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.btnservices3 {
+  width: 266px;
+  height: 62px;
+  padding: 17px 70px 18px 70px;
+  border-radius: 7px;
+  background: transparent;
+  font-family: "Nunito";
+  font-size: 18px;
+  line-height: 29px;
+  border: 1px solid #424245;
+  color: #525255;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.btnservices3:hover {
+  background-color: #FFDC60;
+  color: black;
+  border: 1px solid black;
+}
+
+.btnservices3:hover img {
+  content: url("Images/Vector\ purple.png");
+}
+
+.abtn {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 255px;
+}
+
+a {
+  text-decoration: none;
+}
+  /* FIN CSS SERVICES */
+
+
+
+/* CSS FOOTER */
+img{
+    max-width: 15vw;
+}
+
+footer{
+    background-color: rgba(41,41,48,255);
+}
+
+
+
+.footer_container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.top, .bottom{
+    display: inline-flex;
+}
+
+.tel_container, .adresse_container, .page_container, .reseau_container{
+    margin: 3vw;
+    width: 100%;
+}
+
+.tel_nb{
+    color: rgba(255,220,100);
+    background-color: rgba(60,60,69,255);
+    display: flex;
+    border-radius: 7px;
+    padding: 0.95vw;
+    font-size: 1.7vw;
+    justify-content: center;
+    min-width: 100%
+  
+}
+
+.rue{
+    font-size: 1.45vw;
+    color: white;
+    width: 20.2vw;
+}
+
+.mail, .MAP{
+    color: white;
+    font-size: 1.7vw;
+}
+
+.MAP{
+    color: rgba(255,220,100);
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.45vw;
+    margin: 1%;
+}
+
+.tel, .adresse, .page, .reseau{
+    display: inline-flex;
+    align-items: center;
+    min-width: 100%
+}
+
+.tel_title, .adresse_title{
+    color: white;
+    font-size: 1.7vw;
+    width: 15.2vw;
+}
+
+.page_title, .reseau_title{
+    color: white;
+    font-size: 1.7vw;
+    width: 7.7vw;
+}
+
+.tel_icon, .adresse_icon, .page_icon{
+    width: auto;
+    height: 2vw;
+    margin: 1%;
+}
+
+.reseau_icon{
+    width: auto;
+    height: 1.7vw;
+    margin: 1%;
+}
+
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(60,60,69,255);
+    align-items: center;
+    padding: 5%;
+    margin: 10% 10% 10% 5%;
+    border-radius: 20px;
+}
+
+.input_news{
+    display: flex; 
+    background-color: rgba(41,41,48,255);
+    align-items: center;
+    width: 17.7vw;
+    height: 5.2vw;
+    font-size: 1.7vw;
+}
+
+.textfooter{
+    display: flex; 
+    color: white;
+    font-size: 1.45vw;
+}
+
+.texttitle{
+    display: flex; 
+    color: white;
+    font-size: 1.95vw;
+}
+
+.button_footer{
+    background-color: rgba(255,220,100);
+    border-radius: 20px;
+    margin: 2%;
+    align-items: center;
+    width: 17.7vw;
+    height: 2.7vw;
+    font-size: 1.7vw;
+}
+
+.barre{
+    width: 50%;
+}
