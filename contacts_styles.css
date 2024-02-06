@@ -1,0 +1,166 @@
+.submit_button {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  min-height: 60px;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  font-family: 'Nunito';
+}
+
+.submit_button:disabled {
+  pointer-events: none;
+}
+
+.submit_button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.submit_button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.informations_box {
+  display: flex;
+  font-family: 'Nunito';
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+.contact_title_01 {
+  font-family: 'Nunito' !important;
+  text-align: center;
+}
+
+.contact_us_01 {
+  font-family: 'Noto sans' !important;
+  text-align: center;
+}
+
+.mail_icon_style {
+  width: 29px;
+  height: 22px;
+  top: 15px;
+  position: relative;
+  margin: 5%;
+}
+
+.phone_icon_style {
+  width: 25px;
+  height: 25px;
+  top: 15px;
+  position: relative;
+  margin: 5%;
+}
+
+.location_icon_style {
+  width: 19px;
+  height: 25px;
+  top: 15px;
+  position: relative;
+  margin: 5%;
+}
+
+.assembly_icon_text {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact_register {
+  display: flex;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact_register form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.name_mail_register {
+  display: flex;
+}
+.company_subject_register{
+  display: flex;
+}
+
+.contact_icon {
+  display: block;
+  position: relative;
+  margin: auto;
+}
+
+.contact {
+  background-color: orange;
+  border: 2px;
+  border-radius: 15px;
+  /* border-block-color: unset; */
+  /* border: orange; */
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  align-items: center;
+}
+
+.contact p {
+  font-family: 'Nunito';
+}
+
+.appel {
+  background-color: orange;
+  border: 2px;
+  border-radius: 15px;
+  /* border-block-color: unset; */
+  /* border: orange; */
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  align-items: center;
+}
+
+.appel p {
+  font-family: 'Nunito';
+}
+
+.bureaux {
+  background-color: orange;
+  border: 2px;
+  border-radius: 15px;
+  /* border-block-color: unset; */
+  /* border: orange; */
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  align-items: center;
+}
+
+.bureaux p {
+  font-family: 'Nunito';
+}
+
+#register {
+  padding: 2%;
+}
+
+.promote_mail {
+  border: 10px solid;
+  border-image: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+  border-image-slice: 1;
+  border-radius: 20px;
+}
