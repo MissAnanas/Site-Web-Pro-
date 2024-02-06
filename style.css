@@ -668,6 +668,33 @@ line-height: 28px;
 
 
 
+/* CSS BENEFICES */
+.contentbenef {
+  display: flex;
+  width: 1199px;
+  height: 621px;
+}
+
+.heading5 {
+  display: flex;
+}
+
+.containertxt3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgbenifits {
+  width: 88px;
+  height: 88px;
+}
+
+
+
+
+
+
+
 
 
 
