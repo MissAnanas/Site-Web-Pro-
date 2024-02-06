@@ -1,8 +1,9 @@
+/* CSS HEADER */
+
 body {
-    margin: 0%;
+  margin: 0%;
 }
 
-/* CSS HEADER */
 header {
     display: flex;
     flex-direction: row;
