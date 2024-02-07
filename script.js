@@ -1,61 +1,36 @@
-document.addEventListener('DOMContentLoaded'), () => {
-    const stars =   document.querySelectorAll('.stars');
+document.addEventListener('DOMContentLoaded', () => {
+    const stars = document.querySelectorAll('.star');
+    const starsInput = document.getElementById('ratingValue'); 
+
     stars.forEach(star => {
         star.addEventListener('click', setRating);
         star.addEventListener('mouseover', setHover);
         star.addEventListener('mouseout', removeHover);
     });
 
-    let rating = 0;
-
     function setRating(e) {
-        rating = e.currentTarget.getAttribute('data-value');
-        updateStars();
+        const starValue = e.currentTarget.getAttribute('data-value');
+        starsInput.value = starValue; 
+        updateStars(starValue);
     }
 
     function setHover(e) {
-        const hovervalue = e.currentTarget.getAttribute('data-value');
-        stars.forEach(star => {
-            const value = star.getAttribute('data-value');
-            if (value <= hovervalue) {
-                star.computedStyleMap.color = 'grey';
-            }
-        });
+        const hoverValue = e.currentTarget.getAttribute('data-value');
+        updateStars(hoverValue, false);
     }
 
     function removeHover() {
-        updateStars();
+        updateStars(starsInput.value);
     }
 
-    function updateStars() {
+    function updateStars(value, persist = true) {
         stars.forEach(star => {
-            const value = star.getAttribute('data-value');
-            if (value <= rating){
-                star.computedStyleMap.color = 'gold';
-            } else{
-                star.style.color = 'grey';
+            const starValue = star.getAttribute('data-value');
+            if (starValue <= value) {
+                star.style.color = 'gold'; 
+            } else if (persist) {
+                star.style.color = 'grey'; 
             }
         });
     }
-
-    function setRating(e) {
-        rating = e.currentTarget.getAttribute('data-value');
-        updateStars();
-
-        fetch('URL_Willem', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({rating: rating}),
-          })
-          .then(response => response.json())
-          .then(data => {
-            console.log('Note enregistrée avec succès:', data);
-          })
-          .catch((error) => {
-            console.error('Erreur lors de l\'enregistrement de la note:', error);
-          });
-          
-    }
-}
+});
