@@ -147,6 +147,11 @@ header {
 
 
   /* CSS SERVICES */
+  img.logotitle {
+    width: 88px;
+    height: 88px;
+  }
+
 .backgroundservices {
   background-color: #292930;
   height: 1750px;

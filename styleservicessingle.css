@@ -1,0 +1,607 @@
+
+/* CSS HEADER */
+
+body {
+    margin: 0%;
+  }
+  
+  header {
+      display: flex;
+      flex-direction: row;
+      width: 1402px;
+      padding-left: 345px;
+      height: 81.16px;
+      padding-top: 56px;
+  }
+  
+  .logo {
+      height: 81.16px;
+      width: 239px;
+      padding-right: 147px;
+  }
+  
+  .btnheader {
+      font-family: "Nunito";
+      font-size: 18px;
+      padding: 17px 39px 18px 39px;
+      background-color:  #292930;
+      color: white;
+      border-radius: 7px;
+      width: 156px;
+      height: 64px;
+  }
+  
+  .txtheader {
+      font-family: "Nunito";
+      font-size: 18px;
+      line-height: 28.8px;
+      width: 1010px;
+      position: relative;
+      
+  }
+  
+  .txtheader .btnheader {
+      float: right;
+      display: flex;
+      align-items: center;
+      height: 64px;
+  }
+  
+  .bheader {
+      position: relative;
+      float: left;
+      width: 150px;
+      color: #292930;
+      text-decoration: none;
+      height: 81.16px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .bheader::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 45%;
+      height: 3px; 
+      background: linear-gradient(to right, #FFDC60 50%, #5956E8 50%); 
+      transform: scaleX(0);
+      transform-origin: 0% 50%;
+      transition: transform 0.3s ease; 
+    }
+    
+    .bheader:hover::after {
+      transform: scaleX(1); 
+    }
+  
+  
+    /*FIN CSS HEADER */
+
+
+
+ /*CSS SERVICE SINGLE */
+.titleservicesglbanner{
+    font-family: "Nunito";
+    font-size: 70px;
+    margin: 0;
+}
+
+.txtservicesglbanner{
+    font-family: "Noto Sans";
+    font-size: 18px;
+}
+
+.BannerTitle {
+    width: 1200px;
+    height: 569px;
+    margin-left: 360px;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ /* FIN CSS SERVICE SINGLE */
+
+
+
+
+
+
+
+
+/* CSS NOS SERVICES */
+.backgroundservicesgl {
+    background-color: #292930;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.titleservices {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 0.135em;
+    color: white;
+    font-weight: 500;
+}
+
+.marketing {
+    margin: 0%;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 40px;
+    line-height: 44px;
+    color: white;
+  }
+
+.pageservicesgl{
+    width: 1200px;
+}
+
+.column1{
+    display: flex;
+    gap: 30px;
+}
+
+.containereachsrv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%),
+linear-gradient(0deg, #424245, #424245);
+    padding: 49px 40px 49px 40px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    border: 1px solid #424245;
+}
+
+.iconservicesgl {
+    width: 153px;
+    height: 153px;
+}
+
+.titleservicesgl{
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.txtservicesgl {
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.containerservice {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btnservicesgl{
+    width: 198px;
+    height: 63px;
+    padding: 17px, 35px, 17px, 35px;
+    border-radius: 7px;
+    border: 1.5px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+    font-family: "Nunito";
+    font-size: 18px;
+}
+
+.abtnservicesgl {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+ /* CSS ABOUT */
+ .about {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    height: 851px;
+    align-items: center;
+    gap: 5%;
+}
+  
+  .iconabout {
+    width: 88px;
+    height: 88px;
+  }
+  
+  .containertitle2 {
+    display: flex;
+    width: 652px;
+    height: 129px;
+    gap: 39px;
+  }
+  
+  .titleabout {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 0.135em;
+    margin: 0%;
+    margin-bottom: 3%;
+  }
+  
+  .digital {
+    font-family: "Nunito";
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0%;
+  }
+  
+  .heading2 {
+    width: 653px;
+    height: 284px;
+  }
+  
+  .txt1 {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+.imgabout {
+    height: 477px;
+}
+
+.vectoryes{
+    width: 26px;
+    height: 26px;
+}
+
+.un {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.txtpoint{
+    font-family: "Noto Sans";
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+    /* FIN CSS ABOUT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS PROCCESS */
+.backgroundproccess {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.txtcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentproccess {
+    display: flex;
+    height: 716.5px;
+    background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px
+}
+
+.containerproccessus {
+    width: 969px;
+    height: 450px;
+    display: flex;
+}
+
+.txtproccess {
+    font-family: "Nunito";
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+.txtpoint2 {
+    margin: 0;
+    font-family: "Noto Sans";
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+
+.points {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.step1, .step2, .step3{
+    width: 86px;
+    height: 86px;
+    z-index: 1;
+}
+
+.schemaproccess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.barreproccessus {
+    width: 2px;
+    height: 227px;
+    margin-top: 6%;
+    position: absolute;
+}
+
+.txtschema {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txtschema1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+
+.titleschema1{
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+    position: absolute;
+
+}
+
+.titleschema{
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+}
+
+.txtschema{
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.step3 {
+    margin-bottom: 15%;
+}
+
+/* FIN CSS PROCCESS */
+
+
+
+
+
+
+
+
+
+
+/* CSS FOOTER */
+footer img{
+    max-width: 15vw;
+}
+
+footer{
+    background-color: rgba(41,41,48,255);
+}
+
+
+
+.footer_container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.top, .bottom{
+    display: inline-flex;
+}
+
+.tel_container, .adresse_container, .page_container, .reseau_container{
+    margin: 3vw;
+    width: 100%;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+    }
+
+.tel_nb{
+    color: rgba(255,220,100);
+    background-color: rgba(60,60,69,255);
+    display: flex;
+    border-radius: 7px;
+    padding: 0.95vw;
+    font-size: 1.7vw;
+    justify-content: center;
+    min-width: 100%;
+    font-family: "Noto Sans";
+}
+
+.rue{
+    font-size: 1.45vw;
+    color: white;
+    width: 20.2vw;
+    font-family: "Noto Sans";
+}
+
+.mailfooter, .MAP{
+    color: white;
+    font-size: 1.7vw;
+    font-family: "Noto Sans";
+}
+
+.MAP{
+    color: rgba(255,220,100);
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.45vw;
+    margin: 1%;
+}
+
+.telfooter, .adresse, .page, .reseau{
+    display: inline-flex;
+    align-items: center;
+    min-width: 100%
+}
+
+.tel_title, .adresse_title{
+    color: white;
+    font-size: 1.7vw;
+    width: 15.2vw;
+    font-family: "Nunito";
+}
+
+.page_title, .reseau_title{
+    color: white;
+    font-size: 1.7vw;
+    width: 7.7vw;
+    font-family: "Nunito";
+}
+
+.tel_icon, .adresse_icon, .page_icon{
+    width: auto;
+    height: 2vw;
+    margin: 1%;
+}
+
+.reseau_icon{
+    width: auto;
+    height: 1.7vw;
+    margin: 1%;
+}
+
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(60,60,69,255);
+    align-items: center;
+    padding: 5%;
+    margin: 10% 5% 10% 5%;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.input_news {
+    display: flex;
+    width: 90%;
+    height: 5.2vw;
+    font-size: 1.7vw;
+    font-family: "Nunito";
+    background-color: #5B5B61;
+    border-radius: 7px;
+    border: none;
+    padding-left: 10%;
+    margin-bottom: 5%;
+}
+
+.input_news::placeholder{
+    color: white;
+}
+
+.textfooter{
+    display: flex; 
+    color: white;
+    font-size: 1.45vw;
+    font-family: "Noto Sans";
+}
+
+.texttitle{
+    display: flex; 
+    color: white;
+    font-size: 1.95vw;
+    font-family: "Nunito";
+}
+.containerfooter {
+    width: 100%;
+}
+
+.button_footer {
+    font-family: "Nunito";
+    background-color: rgba(255, 220, 96, 1);
+    border-radius: 7px;
+    width: 100%;
+    height: 5.2vw;
+    font-size: 1.7vw;
+    border: none;
+}
+
+.barre{
+    width: 50%;
+}
+
+.page_link{
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.imgfooter {
+    display: flex;
+    flex-direction: column;
+}
+/* FIN CSS FOOTER */
