@@ -63,13 +63,14 @@ p.decription_01 {
 
 .CTA-button1{
     background: #292930;
+    color: white;
 }
 
 .CTA-button2{
     background: rgba(255, 255, 255, 0);
 }
 
-#background_fusee{
+.background_fusee{
     background-image: url(Images/background_fusee.png);
     width: 63%;
     height: 433px;
@@ -79,7 +80,6 @@ p.decription_01 {
     justify-content: center;
     margin: 100px;
 }
-
 
 
 
