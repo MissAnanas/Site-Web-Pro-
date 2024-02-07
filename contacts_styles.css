@@ -1,3 +1,7 @@
+*{
+    font-family: 'Nunito';
+}
+
 .submit_button {
   appearance: none;
   background-color: #000000;
@@ -120,7 +124,7 @@
 .contact_icon {
     width: 7vw;
     height: auto;
-    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .contact p {
@@ -145,7 +149,6 @@
 .mail_icon_style,
 .phone_icon_style,
 .location_icon_style {
-    width: 20%;
     height: auto;
     margin-right: 5%;
 }
@@ -199,11 +202,11 @@ input{
     width: 40%;
 }
 
-.name_register{
+.name_register, .company_register{
     margin-right: 5%;
 }
 
-.mail_register{
+.mail_register, .subject_register{
     margin-left: 5%;
 }
 
@@ -262,7 +265,6 @@ button.btn_souscrire {
 }
 
 .content_02{
-    margin-top: 7%;
     margin-bottom: 7%;
     display: flex;
     flex-direction: column;
