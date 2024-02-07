@@ -518,6 +518,11 @@ line-height: 28px;
 
 
   /* CSS TEMOIGNAGES */
+  .pagetestimonial {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .imgtestimonial {
   width: 88px;
@@ -528,7 +533,6 @@ line-height: 28px;
   display: flex;
   justify-content: center;
   width: 1199px;
-  height: 129px;
   gap: 39px;
 }
 
@@ -538,7 +542,60 @@ line-height: 28px;
   height: 70px;
   border: 0.5px;
   border-radius: 90px;
+}
 
+.titletestimonial {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.135em;
+  text-align: left;
+  color: black;
+}
+
+.secteurs {
+  font-family: "Nunito";
+  font-size: 40px;
+}
+
+.star {
+  cursor: pointer;
+  font-size: 40px;
+  color: grey;
+}
+
+.star:hover,
+.star:hover ~ .star{
+  color: gold;
+}
+
+.containercomments {
+  display: flex;
+  gap: 26px;
+}
+
+.comment1{
+  width: 556px;
+  height: 415px;
+  padding: 32px 26px 32px 26px;
+  border-radius: 7px;
+  background: linear-gradient(151.16deg, #FFF8F8 10.38%, #F5F7FF 95.44%);
+}
+
+.titlecomment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyex1{
+  max-width:167px;
+  max-height: 39px;
+}
+
+.titleandtxt{
+  padding: 48px 37px 48px 37px;
+  background-color: white;
 }
   /* FIN CSS TEMOIGNAGES */
 
@@ -836,7 +893,7 @@ line-height: 28px;
 
 .contentblog1 {
   display: flex;
-  width: 1199px;
+  width: 1050px;
   padding: 85px 90px 85px 90px;
   background-color: #FFF3CA;
   justify-content: space-between;
@@ -907,7 +964,7 @@ line-height: 28px;
 
 .contentblog2 {
   display: flex;
-  width: 1199px;
+  width: 1050px;
   padding: 85px 90px 85px 90px;
   background-color: #E9F7FF;
   justify-content: space-between;
@@ -926,8 +983,6 @@ line-height: 28px;
   border: none;
   margin-top: 54px;
 }
-
-
 
 
 
