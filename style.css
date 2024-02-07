@@ -147,11 +147,11 @@ header {
 
 
   /* CSS SERVICES */
-  .backgroundservices {
-    background-color: #292930;
-    height: 1750px;
-    display: flex;
-    justify-content: center;
+.backgroundservices {
+  background-color: #292930;
+  height: 1750px;
+  display: flex;
+  justify-content: center;
 }
 
 .containertitle {
@@ -159,6 +159,7 @@ header {
   display: flex;
   margin-left: 40px;
   margin-bottom: 40px;
+  margin-top: 10%;
 }
 
 .titlesrvc {
@@ -196,16 +197,6 @@ header {
   align-items: center;
 }
 
-.logotitle {
-  width: 88px;
-  height: 88px;
-}
-
-.pageservices {
-  display: flex;
-  flex-direction: column;
-  margin-top: 12%;
-}
 
 .column1 {
   display: flex;
@@ -216,7 +207,7 @@ header {
 }
 
 .containerservices {
-  width: 1200px;
+  width: 1300px;
 }
 
 .service {
@@ -518,10 +509,11 @@ line-height: 28px;
 
 
   /* CSS TEMOIGNAGES */
-  .pagetestimonial {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.pagetestimonial {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 43px;
 }
 
 .imgtestimonial {
@@ -531,7 +523,7 @@ line-height: 28px;
 
 .heading3 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   width: 1199px;
   gap: 39px;
 }
@@ -552,11 +544,13 @@ line-height: 28px;
   letter-spacing: 0.135em;
   text-align: left;
   color: black;
+  margin: 0;
 }
 
 .secteurs {
   font-family: "Nunito";
   font-size: 40px;
+  margin-top: 0;
 }
 
 .star {
@@ -573,19 +567,27 @@ line-height: 28px;
 .containercomments {
   display: flex;
   gap: 26px;
+  justify-content: center;
+  height: 600px;
 }
 
 .comment1{
   width: 556px;
-  height: 415px;
+  height: 370px;
   padding: 32px 26px 32px 26px;
   border-radius: 7px;
   background: linear-gradient(151.16deg, #FFF8F8 10.38%, #F5F7FF 95.44%);
+  
 }
 
 .titlecomment {
   display: flex;
   justify-content: space-between;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #CCCCCC;
+  padding-bottom: 5%;
+  align-items: flex-end;
 }
 
 .companyex1{
@@ -596,6 +598,44 @@ line-height: 28px;
 .titleandtxt{
   padding: 48px 37px 48px 37px;
   background-color: white;
+  box-shadow: 0px 2px 4px 0px #92929240;
+  border-radius: 7px;
+  height: 170px;
+}
+
+.commentairetxt {
+  font-family: "Noto Sans";
+  font-size: 18px;
+}
+
+.pdpandauteur {
+  display: flex;
+  gap: 13px;
+  margin-top: 8%;
+}
+
+.pdp1{
+  width: 57px;
+  height: 57px;
+}
+
+.auteur{
+  font-family: "Nunito";
+  font-size: 20px;
+  margin: 0;
+}
+
+.métier{
+  font-family: "Noto Sans";
+  font-size: 18px;
+  margin: 0;
+}
+
+.backgroundcommentaire {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 6%;
 }
   /* FIN CSS TEMOIGNAGES */
 
@@ -612,11 +652,11 @@ line-height: 28px;
 
 
   /* CSS ETUDE DE CAS */
-  .backgroundproject {
-    background-color: #292930;
-    height: 1750px;
-    display: flex;
-    justify-content: center;
+.backgroundproject {
+  background-color: #292930;
+  height: 1750px;
+  display: flex;
+  justify-content: center;
 }
 
 
