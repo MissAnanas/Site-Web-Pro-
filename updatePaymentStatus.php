@@ -1,12 +1,11 @@
 <?php
-include 'config.php'; // Votre fichier de configuration de connexion à la base de données
+include 'config.php'; 
 
 $data = json_decode(file_get_contents("php://input"), true);
 
 $orderID = $data['orderID'];
 $paymentStatus = $data['paymentStatus'];
 
-// Supposons que vous ayez un moyen de relier l'ID de commande avec l'ID de commentaire
 $sql = "UPDATE Comments SET payment = :paymentStatus WHERE ID_comments = (SELECT ID_comments FROM Comments ORDER BY ID_comments DESC LIMIT 1)";
 
 $stmt = $bdd->prepare($sql);
