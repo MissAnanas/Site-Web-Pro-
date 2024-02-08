@@ -271,6 +271,12 @@ form {
     font-weight: 500;
 }
 
+.post_content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 /* CSS FOOTER */
 footer img{
     max-width: 15vw;

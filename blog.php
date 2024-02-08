@@ -1,3 +1,10 @@
+<?php
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");     
+header("Cache-Control: post-check=0, pre-check=0", false);     
+header("Pragma: no-cache");
+require_once 'config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -23,15 +30,9 @@
         </div>
 
         <?php
-            header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");     
-            header("Cache-Control: post-check=0, pre-check=0", false);     
-            header("Pragma: no-cache");
-            
 
             if (isset($_GET['submit']) && !isset($_GET['reload'])) {
                 $searchTerm = htmlspecialchars($_GET['search'], ENT_QUOTES, 'UTF-8');
-
-                require_once 'config.php';
 
                 try {
                     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -45,6 +46,8 @@
 
                     $stmt->execute();
 
+                    echo '<div class="post_content">';
+
                     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
                         echo '<div class="post_box">';
                         echo '<img class="imgpost" src="' . $row['image'] . '">';
@@ -56,10 +59,10 @@
                         echo '</div>';
                     }
 
+                    echo '</div>';
+
                 } catch (PDOException $e) {
                     echo 'Erreur de connexion à la base de données : ' . $e->getMessage();
-                } finally {
-                    $bdd = null;
                 }
             } 
         ?>
@@ -72,21 +75,49 @@
             };
         </script>
 
+        <?php
+            try {
+                $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            
+                $sql = "SELECT * FROM articles ORDER BY date_published DESC LIMIT 1";
+                $result = $bdd->query($sql);
+            
+                if ($result->rowCount() > 0) {
+                    while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+                        $type = $row["type"];
+                        $date = $row["date_published"];
+                        $title = $row["title"];
+                        $content = $row["content"];
+                        $image = $row["image"];
+                    ?>
+
         <div class="contentblog1">
             <div class="txtblog1">
                 <div class="tag">
-                    <h1 class="titleblog1.1">Marketing</h1>
-                    <h1 class="titleblog1.2">1 SEPTEMBRE, 2023</h1>
+                    <h1 class="titleblog1.1"><?php echo $type; ?></h1>
+                    <h1 class="titleblog1.2"><?php echo $date; ?></h1>
                 </div>
                 <div class="txtmarketing">
-                    <p class="marketingtxt1">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
-                    <p class="marketingtxt2">Tincidunt donec vulputate ipsum erat urna auctor. Eget phasellus ideirs.adipiscing elit. Tincidunt donec <br>vulputate ipsum erat urna auctor.</p>
+                    <p class="marketingtxt1"><?php echo $title; ?></p>
+                    <p class="marketingtxt2"><?php echo $content; ?></p>
                 </div>
-                <a class="btn_blog" href="blog_single.php"><button class="btnblog">En Savoir Plus <img src="Images/Vector purple.png" width="14px" height="14px"></button></a>
+                <a class="btn_blog" href="blog_single.php"><button class="btnblog">En Savoir Plus <img src="Images/Vector purple.png" width="14px" height="14px"></button></a>  
             </div>
-            <img class="imgblog" src="Images/imageblog.png">
+            <img class="imgblog" src="<?php echo $image; ?>">
         </div>
     </div>
+
+                    <?php
+                    }
+                } else {
+                    echo "Aucun article trouvé dans la base de données.";
+                }
+            } catch (PDOException $e) {
+                echo "Erreur de connexion à la base de données : " . $e->getMessage();
+            }
+
+            $bdd = null
+        ?>
 
     <div class="newsletter">
         <div class="newsletter_content">
@@ -97,8 +128,6 @@
             </div>
         </div>
     </div>
-
-
 
     <div class="post_container">
         <div class="post_menu">
