@@ -207,29 +207,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="comment1">
-                    <div class="titleandtxt">
-                        <div class="titlecomment">
-                            <img class="companyex1" src="companyexemple2.png">
-                            <div class="rating">
-                                <input type="hidden" name="stars" id="ratingValue" value="0">
-                                <span class="star" data-value="1">&#9733;</span>
-                                <span class="star" data-value="2">&#9733;</span>
-                                <span class="star" data-value="3">&#9733;</span>
-                                <span class="star" data-value="4">&#9733;</span>
-                                <span class="star" data-value="5">&#9733;</span>
-                            </div>
-                        </div>
-                        <p class="commentairetxt">Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make a type specimen book. </p>
-                    </div>
-                    <div class="pdpandauteur">
-                        <img class="pdp1" src="pdp2.png">
-                        <div class="commenteurs">
-                            <h3 class="auteur">John Carter</h3>
-                            <p class="métier">Lead marketer at Google</p>
-                        </div>
-                    </div>
-                </div>
+<?php include 'displayComment.php'; ?>
+
+<div class="comment1">
+    <div class="titleandtxt">
+        <div class="titlecomment">
+            <img class="companyex1" src="<?php echo isset($companyPicName) ? $companyPicName : 'companyexemple.png'; ?>">
+            <div class="rating">
+                <?php echo isset($starsHtml) ? $starsHtml : ''; ?>
+            </div>
+        </div>    
+        <p class="commentairetxt"><?php echo isset($commentaire) ? $commentaire : 'Votre commentaire ici.'; ?></p>
+    </div>
+    <div class="pdpandauteur">
+        <img class="pdp1" src="<?php echo isset($companyPicName) ? $companyPicName : 'companyexemple.png'; ?>">
+        <div class="commenteurs">
+            <h3 class="auteur"><?php echo isset($name) ? $name : 'Votre nom ici'; ?></h3>
+            <p class="métier"><?php echo isset($profession) ? $profession : 'Votre profession ici'; ?></p>
+        </div>
+    </div>
+</div>
+
             </div>
         </div>
     </div>
@@ -274,7 +272,7 @@
                     <div class="criteres"><img class="imgyesno" src="vector no.png"> <p class="txtprice">Consulting Video</p></div>
                     <div class="criteres"><img class="imgyesno" src="vector no.png"> <p class="txtprice">Publicité</p></div>
                 </div>
-                <a class="aprice" href="price.php"><button class="btnprice">Je Choisis Light</button></a>
+                <a class="aprice" href="checkout29.html"><button class="btnprice">Je Choisis Light</button></a>
             </div>
 
             <div class="containerprice">
@@ -297,7 +295,7 @@
                     <div class="criteres"><img class="imgyesno" src="vector yes.png"> <p class="txtprice">Consulting Video</p></div>
                     <div class="criteres"><img class="imgyesno" src="vector no.png"> <p class="txtprice">Publicité</p></div>
                 </div>
-                <a class="aprice" href="price.php"><button class="btnprice">Je Choisis Medium</button></a>
+                <a class="aprice" href="checkout49.html"><button class="btnprice">Je Choisis Medium</button></a>
             </div>
 
             <div class="containerprice">
@@ -319,7 +317,7 @@
                     <div class="criteres"><img class="imgyesno" src="vector yes.png"> <p class="txtprice">Consulting Video</p></div>
                     <div class="criteres"><img class="imgyesno" src="vector yes.png"> <p class="txtprice">Publicité</p></div>
                 </div>
-                <a class="aprice" href="price.php"><button class="btnprice">Je Choisis Big</button></a>
+                <a class="aprice" href="checkout99.html"><button class="btnprice">Je Choisis Big</button></a>
             </div>
         </div>
     </div>
