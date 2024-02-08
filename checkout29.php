@@ -28,15 +28,36 @@
         });
     },
     onApprove: function(data, actions) {
-        return actions.order.capture().then(function(details) {
-            alert("Transaction réussie pour : " + details.payer.name.given_name);
+    return actions.order.capture().then(function(details) {
+        fetch('updatePaymentStatus.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                orderID: data.orderID, 
+                paymentStatus: true
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Payment status updated:', data);
+        })
+        .catch((error) => {
+            console.error('Error:', error);
         });
-    },
+
+        alert("Transaction réussie pour : " + details.payer.name.given_name);
+    });
+},
+
     onError: function(err) {
         console.error('Erreur de paiement :', err);
         alert("Paiement échoué !");
     }
 }).render("#paypal-button-container");
+
+    
 
     </script>
     
@@ -77,6 +98,24 @@
             <label for="img_compagny">Choisissez une photo pour votre compagnie :</label><br>
             <input type="file" id="img_compagny" name="img_compagny" accept="image/*"><br>
             <input type="submit" value="Envoyer Message" id="submit_button">
+
+            <?php
+            include 'config.php'; 
+
+            $sql = "SELECT Name, payment FROM Comments ORDER BY ID_comments DESC LIMIT 1";
+
+            $stmt = $bdd->prepare($sql);
+            $stmt->execute();
+            $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+            $paymentStatus = $result['payment'] ? "Paiement réalisé avec succès" : "Paiement en cours";
+
+            echo "<table border='1'>";
+            echo "<tr><th>Nom</th><th>Statut du Paiement</th></tr>";
+            echo "<tr><td>" . htmlspecialchars($result['Name']) . "</td><td>" . $paymentStatus . "</td></tr>";
+            echo "</table>";
+            ?>
+
         </form>
     </div>
     <script src="script.js"></script>
