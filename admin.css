@@ -1,0 +1,60 @@
+body {
+    background: #292930;
+}
+
+form#updateForm {
+    background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+    padding-top: 10%;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 5%;
+}
+
+.containeradmin {
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+input {
+    border: none;
+    font-family: "Nunito";
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 2%;
+    width: 100%;
+}
+
+label {
+    font-family: "Nunito";
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titleadmin {
+    font-family: "Nunito";
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.btnadmin{
+    width: 183px;
+    height: 64px;
+    padding: 17px 39px 18px 39px;
+    border-radius: 7px;
+    background-color: #292930;
+    color: white;
+    border: none;
+    font-family: "Nunito";
+    font-size: 18px;
+}
