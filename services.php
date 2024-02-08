@@ -126,7 +126,7 @@
         <div class="footer_container">
             <div class="newsletter">
                 
-                    <img class="imgfooter1" src="Images/logo_promote.png">
+                    <img class="imgfooter1" src="Images/white_logo_promote.png">
                     <img class="imgfooter2" src="Images/logo_megaphone.png">
                 
                 <div class="containerfooter">

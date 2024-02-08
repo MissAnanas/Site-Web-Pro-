@@ -9,7 +9,7 @@
 <body>
     <div class="contentblog">
         <div class="heading4">
-            <img class="imgproccess" src="iconblog.png" >
+            <img class="imgproccess" src="Images/iconblog.png" >
             <div class="text_header">
                 <h2 class="titleproccessus"><font color = "#5956E8">//</font> 01 . ARTICLES</h2>
                 <h1 class="processus">Consultez notre contenu sur <br> le marketing de croissance</h1>
@@ -47,10 +47,10 @@
                         echo '<div class="post_box">';
                         echo '<img class="imgpost" src="' . $row['image'] . '">';
                         echo '<div class="post_text">';
-                        echo '<h1 class="titlepost">' . $row['title'] . '</h1>';
+                        echo '<h1 class="type_post">' . $row['type'] . '</h1>';
                         echo '<h1 class="datepost">' . $row['date_published'] . '</h1>';
+                        echo '<p class="titlepost">' . $row['title'] . '</p>';
                         echo '</div>';
-                        echo '<p class="txtpost">' . $row['content'] . '</p>';
                         echo '</div>';
                     }
 
@@ -80,9 +80,9 @@
                     <p class="marketingtxt1">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
                     <p class="marketingtxt2">Tincidunt donec vulputate ipsum erat urna auctor. Eget phasellus ideirs.adipiscing elit. Tincidunt donec <br>vulputate ipsum erat urna auctor.</p>
                 </div>
-                <a class="btn_blog" href="Blog.php"><button class="btnblog">En Savoir Plus <img src="Vector purple.png" width="14px" height="14px"></button></a>
+                <a class="btn_blog" href="Blog.php"><button class="btnblog">En Savoir Plus <img src="Images/Vector purple.png" width="14px" height="14px"></button></a>
             </div>
-            <img class="imgblog" src="imageblog.png">
+            <img class="imgblog" src="Images/imageblog.png">
         </div>
     </div>
 
@@ -97,41 +97,113 @@
             </div>
         </div>
         <div class="post_content_top">
+            <a href="blog_single">
+                <div class="post_box">
+                    <img class="imgpost" src="Images/imgpost1.png">
+                    <div class="post_text">
+                        <h1 class="type_post">Marketing</h1>
+                        <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
+                    </div>
+                    <p class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
+                </div>
+            </a>
             <div class="post_box">
-                <img class="imgpost" src="imgpost1.png">
+                <img class="imgpost" src="Images/imgpost2.png">
                 <div class="post_text">
-                    <h1 class="titlepost">Marketing</h1>
+                    <h1 class="type_post">Marketing</h1>
                     <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
                 </div>
-                <p class="txtpost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
-            </div>
-            <div class="post_box">
-                <img class="imgpost" src="imgpost2.png">
-                <div class="post_text">
-                    <h1 class="titlepost">Marketing</h1>
-                    <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
-                </div>
-                <p class="txtpost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
+                <p class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
             </div>
         </div>
         <div class="post_content_down">
             <div class="post_box">
-                <img class="imgpost" src="imgpost3.png">
+                <img class="imgpost" src="Images/imgpost3.png">
                 <div class="post_text">
-                    <h1 class="titlepost">Marketing</h1>
+                    <h1 class="type_post">Marketing</h1>
                     <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
                 </div>
-                <p class="txtpost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
+                <p class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
             </div>
             <div class="post_box">
-                <img class="imgpost" src="imgpost4.png">
+                <img class="imgpost" src="Images/imgpost4.png">
                 <div class="post_text">
-                    <h1 class="titlepost">Marketing</h1>
+                    <h1 class="type_post">Marketing</h1>
                     <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
                 </div>
-                <p class="txtpost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
+                <p class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
             </div>
         </div>
     </div>
+
+    <footer>
+        <div class="footer_container">
+            <div class="newsletter">
+                
+                    <img class="imgfooter1" src="Images/white_logo_promote.png">
+                    <img class="imgfooter2" src="Images/logo_megaphone.png">
+                
+                <div class="containerfooter">
+                    <h2 class="texttitle">Souscrire maintenant</h2>
+                    <p class="textfooter">Obtenez les dernières <br>informations sur notre agence</p>
+                    <input class="input_news" type="text" name="" placeholder="Entrez Votre E-Mail...">
+                    <input href="accueil.html"  class="button_footer"  type="button" value="Souscrire" />
+                </div>
+            </div>
+            <div class="info_container">
+                <div class="top">
+                    <div class="tel_container">
+                        <div class="telfooter">
+                            <img class="tel_icon" src="Images/green_phone_icon.png">
+                            <h2 class="tel_title">Restons en contact</h2>
+                        </div>
+                        <h1 class="tel_nb">+33 4 79 64 57 62</h1>
+                        <p class="mailfooter">contact@promote.com</p>
+                    </div>
+    
+                    <div class="adresse_container">
+                        <div class="adresse">
+                            <img class="adresse_icon" src="Images/yellow_location_icon.png">
+                            <h2 class="adresse_title">Lieu</h2>
+                        </div>
+                        <p class="rue">50 rue de Marseille <br>69 000 LYON</p>
+                        <a href="https://maps.google.com" class="MAP">MAP</a>
+                    </div>
+                </div>
+    
+                <img class="barre" src="Images/footer_line.png"><img class="barre" src="Images/footer_line.png"><img class="barre" src="Images/footer_line.png"><br>
+    
+                <div class="bottom">
+                    <div class="page_container">
+                        <div class="page">
+                            <img class="page_icon" src="Images/Icon_page.png">
+                            <h2 class="page_title">Pages</h2>
+                        </div>
+                        <div class="page_link">
+                            <a href="Acceuil.html" class="link">Accueil</a><br>
+                            <a href="A propos.html" class="link">A propos</a><br>
+                            <a href="Blog.html" class="link">Blog</a><br>
+                            <a href="Prix.html" class="link">Prix</a><br>
+                            <a href="Contact.html" class="link">Contact</a><br>
+                            <a href="Services.html" class="link">Services</a><br>
+                        </div>
+                    </div>
+                    <div class="reseau_container">
+                        <div class="reseau">
+                            <img class="reseau_icon" src="Images/Iconspeaker.png">
+                            <h2 class="reseau_title">Réseaux</h2>
+                        </div>
+                        <div class="reseau_link"></div>
+                            <a href="facebook.fr" class="link">Facebook</a><br>
+                            <a href="twitter.fr" class="link">Twitter</a><br>
+                            <a href="instagram.fr" class="link">Instagram</a><br>
+                            <a href="linkedin.fr" class="link">LinkedIn</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>   
+
 </body>
 </html>
