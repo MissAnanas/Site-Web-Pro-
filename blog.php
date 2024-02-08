@@ -237,17 +237,17 @@
 
                     switch(button.textContent.trim()) {
                         case 'Tous':
-                            posts.forEach(post => post.style.display = 'block');
+                            posts.forEach(post => post.style.display = 'flex');
                             break;
                         case 'Croissance':
-                            document.querySelector('.post_box[data-id="2"]').style.display = 'block';
+                            document.querySelector('.post_box[data-id="2"]').style.display = 'flex';
                             break;
                         case 'Contenu':
-                            document.querySelector('.post_box[data-id="3"]').style.display = 'block';
+                            document.querySelector('.post_box[data-id="3"]').style.display = 'flex';
                             break;
                         case 'Réseaux':
-                            document.querySelector('.post_box[data-id="1"]').style.display = 'block';
-                            document.querySelector('.post_box[data-id="4"]').style.display = 'block';
+                            document.querySelector('.post_box[data-id="1"]').style.display = 'flex';
+                            document.querySelector('.post_box[data-id="4"]').style.display = 'flex';
                             break;
                     }
                 });
