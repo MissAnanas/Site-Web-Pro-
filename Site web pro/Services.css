@@ -436,7 +436,7 @@
 
 }
 
-.Services-button:is(:hover, :focus) {
+button:is(:hover, :focus) {
   background-color: #FFDC60;
 }
 
