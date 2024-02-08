@@ -14,10 +14,12 @@
                 <h2 class="titleproccessus"><font color = "#5956E8">//</font> 01 . ARTICLES</h2>
                 <h1 class="processus">Consultez notre contenu sur <br> le marketing de croissance</h1>
             </div>
-            <form action="blog.php" method="get">
-                <input class="input_headerBlog" type="text" name="search" placeholder="Rechercher dans le blog">
-                <button class="btn_headerBlog" type="submit" name="submit">Recherche</button>
-            </form>
+            <div>
+                <form action="blog.php" method="get">
+                    <input class="input_headerBlog" type="text" name="search" placeholder="Rechercher dans le blog">
+                    <button class="btn_headerBlog" type="submit" name="submit">Recherche</button>
+                </form>
+            </div>
         </div>
 
         <?php
@@ -49,8 +51,8 @@
                         echo '<div class="post_text">';
                         echo '<h1 class="type_post">' . $row['type'] . '</h1>';
                         echo '<h1 class="datepost">' . $row['date_published'] . '</h1>';
-                        echo '<p class="titlepost">' . $row['title'] . '</p>';
                         echo '</div>';
+                        echo '<a href="blog_single" class="titlepost">' . $row['title'] . '</a>';
                         echo '</div>';
                     }
 
@@ -80,11 +82,23 @@
                     <p class="marketingtxt1">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
                     <p class="marketingtxt2">Tincidunt donec vulputate ipsum erat urna auctor. Eget phasellus ideirs.adipiscing elit. Tincidunt donec <br>vulputate ipsum erat urna auctor.</p>
                 </div>
-                <a class="btn_blog" href="Blog.php"><button class="btnblog">En Savoir Plus <img src="Images/Vector purple.png" width="14px" height="14px"></button></a>
+                <a class="btn_blog" href="blog_single.php"><button class="btnblog">En Savoir Plus <img src="Images/Vector purple.png" width="14px" height="14px"></button></a>
             </div>
             <img class="imgblog" src="Images/imageblog.png">
         </div>
     </div>
+
+    <div class="newsletter">
+        <div class="newsletter_content">
+            <h1 class="titre_newsletter">Souscrivez à notre <font color="#FFDC60">newsletter</font></h1>
+            <div class="input_content">
+                <input class="input_mail" type="text" name="mail" placeholder="Entrez votre E-Mail..." >
+                <button class="btn_souscrire">Souscrire</button>
+            </div>
+        </div>
+    </div>
+
+
 
     <div class="post_container">
         <div class="post_menu">
@@ -97,24 +111,22 @@
             </div>
         </div>
         <div class="post_content_top">
-            <a href="blog_single">
                 <div class="post_box">
                     <img class="imgpost" src="Images/imgpost1.png">
                     <div class="post_text">
                         <h1 class="type_post">Marketing</h1>
                         <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
                     </div>
-                    <p class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
+                    <a href="#" class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</a>
                 </div>
-            </a>
-            <div class="post_box">
-                <img class="imgpost" src="Images/imgpost2.png">
-                <div class="post_text">
-                    <h1 class="type_post">Marketing</h1>
-                    <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
+                <div class="post_box">
+                    <img class="imgpost" src="Images/imgpost2.png">
+                    <div class="post_text">
+                        <h1 class="type_post">Marketing</h1>
+                        <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
+                    </div>
+                    <a href="#" class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</a>
                 </div>
-                <p class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
-            </div>
         </div>
         <div class="post_content_down">
             <div class="post_box">
@@ -123,7 +135,7 @@
                     <h1 class="type_post">Marketing</h1>
                     <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
                 </div>
-                <p class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
+                <a href="#" class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</a>
             </div>
             <div class="post_box">
                 <img class="imgpost" src="Images/imgpost4.png">
@@ -131,14 +143,14 @@
                     <h1 class="type_post">Marketing</h1>
                     <h1 class="datepost">1 SEPTEMBRE, 2023</h1>
                 </div>
-                <p class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
+                <a href="#" class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</a>
             </div>
         </div>
     </div>
 
     <footer>
         <div class="footer_container">
-            <div class="newsletter">
+            <div class="footernewsletter">
                 
                     <img class="imgfooter1" src="Images/white_logo_promote.png">
                     <img class="imgfooter2" src="Images/logo_megaphone.png">
