@@ -104,14 +104,14 @@
         <div class="post_menu">
             <h1 class="txt_filtre">Derniers posts</h1>
             <div class="filtres">
-                <button class="btn_filtre_all">Tous</button>
+                <button class="btn_filtre">Tous</button>
                 <button class="btn_filtre">Croissance</button>
                 <button class="btn_filtre">Contenu</button>
                 <button class="btn_filtre">Réseaux</button>
             </div>
         </div>
         <div class="post_content_top">
-                <div class="post_box">
+                <div class="post_box" data-id="1">
                     <img class="imgpost" src="Images/imgpost1.png">
                     <div class="post_text">
                         <h1 class="type_post">Marketing</h1>
@@ -119,7 +119,7 @@
                     </div>
                     <a href="#" class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</a>
                 </div>
-                <div class="post_box">
+                <div class="post_box" data-id="2">
                     <img class="imgpost" src="Images/imgpost2.png">
                     <div class="post_text">
                         <h1 class="type_post">Marketing</h1>
@@ -129,7 +129,7 @@
                 </div>
         </div>
         <div class="post_content_down">
-            <div class="post_box">
+            <div class="post_box" data-id="3">
                 <img class="imgpost" src="Images/imgpost3.png">
                 <div class="post_text">
                     <h1 class="type_post">Marketing</h1>
@@ -137,7 +137,7 @@
                 </div>
                 <a href="#" class="titlepost">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</a>
             </div>
-            <div class="post_box">
+            <div class="post_box" data-id="4">
                 <img class="imgpost" src="Images/imgpost4.png">
                 <div class="post_text">
                     <h1 class="type_post">Marketing</h1>
@@ -216,6 +216,46 @@
             </div>
         </div>
     </footer>   
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var buttons = document.querySelectorAll('.btn_filtre, .btn_filtre_all');
+            var posts = document.querySelectorAll('.post_box');
+
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    buttons.forEach(btn => {
+                        btn.style.backgroundColor = 'white';
+                        btn.style.color = 'black'; 
+                    });
+
+                    
+                    button.style.backgroundColor = 'black';
+                    button.style.color = 'white'; 
+
+                    posts.forEach(post => post.style.display = 'none');
+
+                    switch(button.textContent.trim()) {
+                        case 'Tous':
+                            posts.forEach(post => post.style.display = 'block');
+                            break;
+                        case 'Croissance':
+                            document.querySelector('.post_box[data-id="2"]').style.display = 'block';
+                            break;
+                        case 'Contenu':
+                            document.querySelector('.post_box[data-id="3"]').style.display = 'block';
+                            break;
+                        case 'Réseaux':
+                            document.querySelector('.post_box[data-id="1"]').style.display = 'block';
+                            document.querySelector('.post_box[data-id="4"]').style.display = 'block';
+                            break;
+                    }
+                });
+            });
+        });
+    </script>
+
+
 
 </body>
 </html>
