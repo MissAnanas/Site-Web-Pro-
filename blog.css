@@ -141,6 +141,7 @@ button{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .post_box{
@@ -202,4 +203,38 @@ button{
     font-weight: 600;
     text-align: left;
     margin-bottom: 0;
+}
+
+.post_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 38%;
+}
+
+h1.txt_filtre {
+  font-family: 'Nunito';
+}
+
+button.btn_filtre {
+  padding: 5%;
+  font-family: 'Nunito';
+  border-radius: 7px;
+  background: white;
+  margin-left: 2%;
+}
+
+.filtres {
+  display: flex;
+  width: 36%;
+}
+
+.btn_filtre_all{
+  padding: 5%;
+  font-family: 'Nunito';
+  border-radius: 7px;
+  border: 1px solid #292930;
+  background: #292930;
+  margin-left: 2%;
+  color: white;
 }
