@@ -1,3 +1,10 @@
+<?php
+ 
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -19,10 +26,12 @@
         <header>
             <img class="logo" src="logoheader.png">
             <div class="txtheader">
-                <a class = "bheader" href="Accueil.php">Accueil</a>
-                <a class = "bheader" href="A Propos.php">A Propos</a>
-                <a class = "bheader" href="Services.php">Services</a>
-                <a class = "bheader" href="Blog.php">Blog</a>
+                <div class="headerhref">
+                    <a class = "bheader" href="index.php">Accueil</a>
+                    <a class = "bheader" href="aboutus.php">A Propos</a>
+                    <a class = "bheader" href="Services.php">Services</a>
+                    <a class = "bheader" href="blog.php">Blog</a>
+                </div>
                 <a href="aaa.html"><button class="btnheader">Démarrer</button></a>
             </div>
         </header>
