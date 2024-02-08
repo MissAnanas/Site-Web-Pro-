@@ -1,8 +1,7 @@
-
-
 /* CSS HEADER */
-body{
-  margin: 0;
+
+body {
+  margin: 0%;
 }
 
 header {
@@ -21,21 +20,14 @@ header {
 }
 
 .btnheader {
-  width: 8vw;
-  height: 3.5vw;
-  border-radius: 7px;
-  font-family: "Nunito";
-  font-size: 18px;
-  background-color: #292930;
-  color: white;
-  border-radius: 7px;
-  border: none;
-}
-
-.headerhref {
-  display: flex;
-  width: 45%;
-  justify-content: space-between;
+    font-family: "Nunito";
+    font-size: 18px;
+    padding: 17px 39px 18px 39px;
+    background-color:  #292930;
+    color: white;
+    border-radius: 7px;
+    width: 156px;
+    height: 64px;
 }
 
 .txtheader {

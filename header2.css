@@ -1,6 +1,7 @@
 
 
 /* CSS HEADER */
+
 body{
     margin: 0;
 }
@@ -37,7 +38,6 @@ header {
     width: 45%;
     justify-content: space-between;
 }
-
 .txtheader {
     font-family: "Nunito";
     font-size: 18px;
