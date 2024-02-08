@@ -15,9 +15,9 @@
 
   .carousel-container {
     position: relative;
-    width: calc(100% - 40px); /* Adjust the width to accommodate the arrows */
+    width: calc(100% - 40px); 
     margin: auto;
-    padding: 0 20px; /* Padding on sides for arrows */
+    padding: 0 20px; 
   }
 
   .carousel-arrow {
@@ -38,7 +38,7 @@
 
   .carousel {
     display: flex;
-    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    overflow-x: hidden; 
     scroll-behavior: smooth;
     padding: 20px 0;
   }

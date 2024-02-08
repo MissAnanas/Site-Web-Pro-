@@ -1,3 +1,10 @@
+<?php
+ 
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -19,10 +26,12 @@
         <header>
             <img class="logo" src="logoheader.png">
             <div class="txtheader">
-                <a class = "bheader" href="Accueil.php">Accueil</a>
-                <a class = "bheader" href="A Propos.php">A Propos</a>
-                <a class = "bheader" href="Services.php">Services</a>
-                <a class = "bheader" href="Blog.php">Blog</a>
+                <div class="headerhref">
+                    <a class = "bheader" href="index.php">Accueil</a>
+                    <a class = "bheader" href="aboutus.php">A Propos</a>
+                    <a class = "bheader" href="Services.php">Services</a>
+                    <a class = "bheader" href="blog.php">Blog</a>
+                </div>
                 <a href="aaa.html"><button class="btnheader">Démarrer</button></a>
             </div>
         </header>
@@ -240,6 +249,43 @@
                     <h1 class="services">1520 - Projet réalisé. Consultez notre dernière étude de cas sur l'agence de marketing</h1>
                 </div>
                 <a class="abtnproject" href="Services.php"><button class="btnservices2">Plus d'études <img src="Vector purple.png" width="14px" height="14px"></button></a>
+            </div>
+            <div id="project-container">
+                <!-- Section des services -->
+                <div id="services-section">
+                    <div class="service" data-service="gestion-medias">
+                        <div class="service-header">
+                            <h3>Gestion des médias en ligne</h3>
+                            <img class="arrow" src="Pattern.png" alt="Dérouler">
+                        </div>
+                        <div class="service-content">
+                            <p>Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make.</p>
+                        </div>
+                    </div>
+                    <div class="service" data-service="branding-marketing">
+                        <div class="service-header">
+                            <h3>Branding / Marketing</h3>
+                            <img class="arrow" src="Pattern.png" alt="Dérouler">
+                        </div>
+                        <div class="service-content">
+                            <p>Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make.</p>
+                        </div>
+                    </div>
+                    <div class="service" data-service="email-marketing">
+                        <div class="service-header">
+                            <h3>Email Marketing</h3>
+                            <img class="arrow" src="Pattern.png" alt="Dérouler">
+                        </div>
+                        <div class="service-content">
+                            <p>Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image à droite -->
+                <div id="image-container">
+                    <img src="image.png" alt="Projet 1520">
+                </div>
+            <script src="scripttest.js"></script>
             </div>
         </div>
     </div>
