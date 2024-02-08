@@ -1,0 +1,37 @@
+#project-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#services-section {
+    width: 50%;
+}
+
+.service {
+    background: #333; /* Background color */
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.service-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.service-content {
+    display: none;
+    padding-top: 10px;
+}
+
+#image-container {
+    width: 45%;
+}
+
+#image-container img {
+    width: 100%;
+    border-radius: 5px;
+}
