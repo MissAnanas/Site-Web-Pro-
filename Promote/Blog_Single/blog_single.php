@@ -15,9 +15,11 @@
     <title>Promote</title>
 </head>
 <body>
-    <?php 
-        include("../Header/header.php"); 
-    ?>
+    <div class="pagebanner">
+        <?php 
+            include("../Header/header.php"); 
+        ?>
+    </div>
     <div class="pageblog_single">
         <div class="containerarticle">
             <div class="titleblog_single">

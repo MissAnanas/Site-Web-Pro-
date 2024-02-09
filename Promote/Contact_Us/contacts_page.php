@@ -12,9 +12,12 @@
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
     </style>
-    <?php 
-        include("../Header/header.php"); 
-    ?>
+    <div class="pageaboutus">
+        <?php 
+          include("../Header/header.php"); 
+        ?>
+        <h1 class="titleaboutus">Contact</h1>
+    </div>
     <div class="contact_us">
         <img src="../Contact_Us/Images/contact_icon.png" alt="contact icon" class="contact_icon">
         <h1 class="contact_us_01"><font color = "#FEC90C">//</font> 01 . CONTACTEZ NOUS</h1>

@@ -554,7 +554,7 @@ header("Pragma: no-cache");
                 <a href="../404/404.php"><button class="btnblog">Voir plus <img src="../Home_Page/Images/Vector purple.png" width="14px" height="14px"></button></a>
             </div>
         </div>
-        <a class="abtnblog" href="../Blog/blog.php"><button class="btnblog2">Plus d'articles <img src="../Home_Page/Images/Vector white.png" width="14px" height="14px"></button></a>
+        <a class="abtnblog" href="../Blog/blog.php"><button class="btnblog2">Plus d'articles <img src="../Home_Page/Images/Vector purple.png" width="14px" height="14px"></button></a>
     </div>
 
 

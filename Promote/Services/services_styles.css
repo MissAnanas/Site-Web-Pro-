@@ -1,4 +1,9 @@
 
+.title_banner {
+  background: url(../About_Us/Images/aboutuss.png);
+  height: 595.49px;
+}
+
 .Heading{
     display: flex;
     flex-direction: column;

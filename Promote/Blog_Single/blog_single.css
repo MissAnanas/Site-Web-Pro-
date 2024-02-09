@@ -1,3 +1,7 @@
+.pagebanne{
+    background-image: url(../Blog_Single/Images/aboutuss.png);
+}
+
 .title_blogsingle {
     display: flex;
     align-items: center;

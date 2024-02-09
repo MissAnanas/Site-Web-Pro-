@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
+.pageaboutus {
+    background: url(../About_Us/Images/aboutuss.png);
+    height: 595.49px;
+}
+
 .btn_filtre_all, .btn_filtre {
     background-color: white; 
 

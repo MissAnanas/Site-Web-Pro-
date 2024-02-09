@@ -14,9 +14,12 @@ require_once 'config.php';
     <link rel="stylesheet" href="blog.css">
 </head>
 <body>
-    <?php 
-        include("../Header/header.php"); 
-    ?>
+    <div class="pageaboutus">
+        <?php 
+          include("../Header/header.php"); 
+        ?>
+        <h1 class="titleaboutus">Blog</h1>
+    </div>
     <div class="contentblog">
         <div class="heading4">
             <img class="imgproccess" src="../Blog/Images/blog_icon.png" >
