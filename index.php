@@ -253,40 +253,158 @@ header("Pragma: no-cache");
             <div id="project-container">
                 <!-- Section des services -->
                 <div id="services-section">
-                    <div class="service" data-service="gestion-medias">
+                    <div class="serviceproject" data-service="gestion-medias">
                         <div class="service-header">
-                            <h3>Gestion des médias en ligne</h3>
+                            <h3 class="titleetudedecas">Gestion des médias en ligne</h3>
                             <img class="arrow" src="Pattern.png" alt="Dérouler">
                         </div>
                         <div class="service-content">
-                            <p>Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make.</p>
+                            <p class="txtetudedecas">Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make.</p>
                         </div>
                     </div>
-                    <div class="service" data-service="branding-marketing">
+                    <div class="serviceproject" data-service="branding-marketing">
                         <div class="service-header">
-                            <h3>Branding / Marketing</h3>
+                            <div class="titleserviceheader">
+                                <span class="service-category">Branding / Marketing</span> 
+                                <h3 class="titleetudedecas">Marketing d'expériences</h3>
+                            </div>
                             <img class="arrow" src="Pattern.png" alt="Dérouler">
                         </div>
                         <div class="service-content">
-                            <p>Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make.</p>
+                            <p class="txtetudedecas">Lorem Ipsum has been the industry's standard dummy text ever since the unknown printer...</p>
                         </div>
                     </div>
-                    <div class="service" data-service="email-marketing">
+                    <div class="serviceproject" data-service="email-marketing">
                         <div class="service-header">
-                            <h3>Email Marketing</h3>
+                            <h3 class="titleetudedecas">Email Marketing</h3>
                             <img class="arrow" src="Pattern.png" alt="Dérouler">
                         </div>
                         <div class="service-content">
-                            <p>Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make.</p>
+                            <p class="txtetudedecas">Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make.</p>
                         </div>
                     </div>
                 </div>
+
+    <script>
+    const arrows = document.querySelectorAll('.arrow');
+
+    arrows.forEach(arrow => {
+        arrow.addEventListener('click', function() {
+            const serviceProject = this.closest('.serviceproject');
+            if (serviceProject.style.opacity === '1') {
+                serviceProject.style.opacity = '0.5';
+            } else {
+                serviceProject.style.opacity = '1';
+            }
+        });
+    });
+</script>
+
                 <!-- Image à droite -->
                 <div id="image-container">
-                    <img src="image.png" alt="Projet 1520">
+                    <img class="Projet1520" src="imageprojet1520.png" alt="Projet 1520">
                 </div>
-            <script src="scripttest.js"></script>
+            <script src="etudedecas.js"></script>
             </div>
+            <div id="superposer1">
+                <div class="compteur" >
+                    <div class="counter_all">
+                        <div class="counter" id="counter1"></div>
+                        <div class="txt_counteur">
+                            <font color = "#5956E8">+</font>
+                            <p class="compteurtxt">CLIENTS DANS LE MONDE</p>
+                        </div>
+                    </div>
+                    <div class="counter_all">
+                        <div class="counter" id="counter2"></div>
+                        <div class="txt_counteur">
+                            <font color = "#FF1850">+</font>
+                            <p class="compteurtxt">PROJETS COMPLETES</p>
+                        </div>
+                    </div>
+                    <div class="counter_all">
+                        <div class="counter" id="counter3"></div>
+                        <div class="txt_counteur">
+                            <font color = "#FFDC60">+</font>
+                            <p class="compteurtxt">MEMBRES DANS L'EQUIPE</p>
+                        </div>
+                    </div>
+                    <div class="counter_all">
+                        <div class="counter" id="counter4"></div>
+                        <div class="txt_counteur">
+                            <p class="millions">m</p>
+                            <font color = "#38E55E">+</font>
+                            <p class="compteurtxt">REVENUS GENEREES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    <script>
+        // Sélection de la div du compteur
+        const counter1 = document.getElementById('counter1');
+        let count1 = 0;
+        
+        // Fonction pour mettre à jour le compteur
+        function updateCounter1() {
+            if (count1 < 325) {
+                count1 += 1;
+                counter1.textContent = count1;
+                setTimeout(updateCounter1, 15); // ajustez le délai selon vos besoins
+            }
+        }
+        
+        // Appelle la fonction pour démarrer le compteur
+        updateCounter1();
+
+        // Sélection de la div du compteur
+        const counter2 = document.getElementById('counter2');
+        let count2 = 0;
+        
+        // Fonction pour mettre à jour le compteur
+        function updateCounter2() {
+            if (count2 < 975) {
+                count2 += 1;
+                counter2.textContent = count2;
+                setTimeout(updateCounter2, 1); // ajustez le délai selon vos besoins
+            }
+        }
+        
+        // Appelle la fonction pour démarrer le compteur
+        updateCounter2();
+
+        // Sélection de la div du compteur
+        const counter3 = document.getElementById('counter3');
+        let count3 = 0;
+        
+        // Fonction pour mettre à jour le compteur
+        function updateCounter3() {
+            if (count3 < 70) {
+                count3 += 1;
+                counter3.textContent = count3;
+                setTimeout(updateCounter3, 60); // ajustez le délai selon vos besoins
+            }
+        }
+        
+        // Appelle la fonction pour démarrer le compteur
+        updateCounter3();
+
+        // Sélection de la div du compteur
+        const counter4 = document.getElementById('counter4');
+        let count4 = 0;
+        
+        // Fonction pour mettre à jour le compteur
+        function updateCounter4() {
+            if (count4 < 85) {
+                count4 += 1;
+                counter4.textContent = count4;
+                setTimeout(updateCounter4, 50); // ajustez le délai selon vos besoins
+            }
+        }
+        
+        // Appelle la fonction pour démarrer le compteur
+        updateCounter4();
+    </script>
         </div>
     </div>
 
@@ -447,6 +565,75 @@ header("Pragma: no-cache");
         <a class="abtnblog" href="Blog.php"><button class="btnblog2">Plus d'articles <img src="Vector white.png" width="14px" height="14px"></button></a>
     </div>
 
+
+    <footer>
+        <div class="footer_container">
+            <div class="newsletter">
+                
+                    <img class="imgfooter1" src="Logo.png">
+                    <img class="imgfooter2" src="Logo (1).png">
+                
+                <div class="containerfooter">
+                    <h2 class="texttitle">Souscrire maintenant</h2>
+                    <p class="textfooter">Obtenez les dernières <br>informations sur notre agence</p>
+                    <input class="input_news" type="text" name="" placeholder="Entrez Votre E-Mail...">
+                    <input href="accueil.html"  class="button_footer"  type="button" value="Souscrire" />
+                </div>
+            </div>
+            <div class="info_container">
+                <div class="top">
+                    <div class="tel_container">
+                        <div class="telfooter">
+                            <img class="tel_icon" src="Vector.png">
+                            <h2 class="tel_title">Restons en contact</h2>
+                        </div>
+                        <h1 class="tel_nb">+33 4 79 64 57 62</h1>
+                        <p class="mailfooter">contact@promote.com</p>
+                    </div>
+    
+                    <div class="adresse_container">
+                        <div class="adresse">
+                            <img class="adresse_icon" src="Icon.png">
+                            <h2 class="adresse_title">Lieu</h2>
+                        </div>
+                        <p class="rue">50 rue de Marseille <br>69 000 LYON</p>
+                        <a href="https://maps.google.com" class="MAP">MAP</a>
+                    </div>
+                </div>
+    
+                <img class="barre" src="Line.png"><img class="barre" src="Line.png"><img class="barre" src="Line.png"><br>
+    
+                <div class="bottom">
+                    <div class="page_container">
+                        <div class="page">
+                            <img class="page_icon" src="Icon_page.png">
+                            <h2 class="page_title">Pages</h2>
+                        </div>
+                        <div class="page_link">
+                            <a href="Acceuil.html" class="link">Accueil</a><br>
+                            <a href="A propos.html" class="link">A propos</a><br>
+                            <a href="Blog.html" class="link">Blog</a><br>
+                            <a href="Prix.html" class="link">Prix</a><br>
+                            <a href="Contact.html" class="link">Contact</a><br>
+                            <a href="Services.html" class="link">Services</a><br>
+                        </div>
+                    </div>
+                    <div class="reseau_container">
+                        <div class="reseau">
+                            <img class="reseau_icon" src="Iconspeaker.png">
+                            <h2 class="reseau_title">Réseaux</h2>
+                        </div>
+                        <div class="reseau_link"></div>
+                            <a href="facebook.fr" class="link">Facebook</a><br>
+                            <a href="twitter.fr" class="link">Twitter</a><br>
+                            <a href="instagram.fr" class="link">Instagram</a><br>
+                            <a href="linkedin.fr" class="link">LinkedIn</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <footer>
 
 </body>
 </html>

@@ -62,6 +62,76 @@
         </div>
     </div>
 
+    <div class="pageslide">
+        <div class="heading2">
+            <img class="imgequipe" src="slidelogo.png" >
+            <h2 class="titleequipe"><font color = "#FEC90C">//</font> 02 . NOS VALEURS</h2>
+            <h1 class="equipe">Les valeurs fondamentales qui sous-tendent notre travail</h1>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel-arrow left-arrow" onclick="slide(-1)">
+            <img src="flèchegauche.png" alt="Left Arrow">
+            </div>
+            
+            <div class="carousel" id="carousel">
+            <div class="carousel-item">
+                <img src="Iconvaleurs1.png" alt="Efficacité">
+                <h3>Efficacité</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            </div>
+        
+            <div class="carousel-item">
+                <img src="Iconvaleurs2.png" alt="Efficacité">
+                <h3>Efficacité</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+        
+                <div class="carousel-item">
+                <img src="Iconvaleurs3.png" alt="Efficacité">
+                <h3>Efficacité</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+        
+                <div class="carousel-item">
+                <img src="Iconvaleurs4.png" alt="Efficacité">
+                <h3>Efficacité</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+        
+                <div class="carousel-item">
+                <img src="Iconvaleurs4.png" alt="Efficacité">
+                <h3>Efficacité</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+        
+        
+                <div class="carousel-item">
+                <img src="Iconvaleurs4.png" alt="Efficacité">
+                <h3>Efficacité</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                </div>
+        
+        
+            </div>
+        
+            <div class="carousel-arrow right-arrow" onclick="slide(1)">
+            <img src="flèchedroite.png" alt="Right Arrow">
+            </div>
+        </div>
+    </div>
+
+<script>
+let itemWidth = 220;
+function slide(direction) {
+  let carousel = document.getElementById('carousel');
+  if (direction === 1) {
+    carousel.scrollBy({ left: itemWidth, behavior: 'smooth' });
+  } else {
+    carousel.scrollBy({ left: -itemWidth, behavior: 'smooth' });
+  }
+}
+</script>
+
 
     <div class="pageequipe">
         <div class="heading2">

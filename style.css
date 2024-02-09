@@ -1,7 +1,7 @@
 /* CSS HEADER */
 
 body {
-  margin: 0%;
+  margin: 0;
 }
 
 header {
@@ -20,14 +20,21 @@ header {
 }
 
 .btnheader {
-    font-family: "Nunito";
-    font-size: 18px;
-    padding: 17px 39px 18px 39px;
-    background-color:  #292930;
-    color: white;
-    border-radius: 7px;
-    width: 156px;
-    height: 64px;
+  width: 8vw;
+  height: 3.5vw;
+  border-radius: 7px;
+  font-family: "Nunito";
+  font-size: 18px;
+  background-color: #292930;
+  color: white;
+  border-radius: 7px;
+  border: none;
+}
+
+.headerhref {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
 }
 
 .txtheader {
@@ -100,7 +107,8 @@ header {
   .logo{
       content: url(Promotetxt.png);
   }
-}
+} 
+
 
 /* FIN CSS HEADER */
 
@@ -681,9 +689,9 @@ line-height: 28px;
   /* CSS ETUDE DE CAS */
 .backgroundproject {
   background-color: #292930;
-  height: 1750px;
   display: flex;
   justify-content: center;
+  padding-bottom: 5%;
 }
 
 
@@ -695,7 +703,11 @@ line-height: 28px;
 
 #project-container {
   display: flex;
-  justify-content: space-between;
+  gap: 27px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #5D5D63;
+  padding-bottom: 10%;
 }
 
 #services-section {
@@ -704,12 +716,11 @@ line-height: 28px;
   justify-content: space-between;
 }
 
-.service {
+.serviceproject {
   background: #383840;
   color: white;
-  margin-bottom: 10px;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 559px;
   margin: 0;
 }
@@ -730,15 +741,88 @@ line-height: 28px;
   width: 45%;
 }
 
-#image-container img {
-  width: 100%;
-  border-radius: 5px;
+.service-category {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  color: #FFDC60;
+
 }
+
+.titleetudedecas{
+  font-family: "Nunito";
+  font-size: 30px;
+
+}
+
+.txtetudedecas{
+  font-family: "Noto Sans";
+  font-size: 18px;
+}
+
+.Projet1520{
+  width: 614px;
+  height: 546px;
+}
+
+.service-content {
+  opacity: 1; /* Opacité par défaut */
+  transition: opacity 0.3s ease; /* Animation de transition */
+}
+
+.service-content.closed {
+  opacity: 0.5; /* Opacité lorsque le service est fermé */
+}
+
 
   /* FIN CSS ETUDE DE CAS */
 
 
+/* CSS Compteurs*/
 
+#superposer1 {
+    background-image: url(image2.png);
+    display: flex;
+    justify-content: center;
+}
+
+.compteur {
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: 'Nunito';
+  display: inline-flex;
+  padding: 5% 0;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.counter {
+    color: white;
+}
+
+.counter_all {
+    display: flex;
+    align-items: center;
+}
+
+.txt_counteur {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.compteurtxt{
+    color: #D0D0D0;
+    margin-left: 10%;
+}
+
+.millions{
+  font-family: "Nunito";
+  font-size: 40px;
+  margin: 0;
+  color: white;
+}
+/*Fin CSS Compteurs */
 
 
 
@@ -1014,6 +1098,7 @@ line-height: 28px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10%;
 }
 
 .txtblog1 {
@@ -1093,7 +1178,179 @@ line-height: 28px;
   border: none;
   margin-top: 54px;
 }
+/* FIN CSS */
 
+
+/* CSS FOOTER */
+footer img{
+  max-width: 15vw;
+}
+
+footer{
+  background-color: rgba(41,41,48,255);
+}
+
+
+
+.footer_container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.top, .bottom{
+  display: inline-flex;
+}
+
+.tel_container, .adresse_container, .page_container, .reseau_container{
+  margin: 3vw;
+  width: 100%;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 50px;
+  }
+
+.tel_nb{
+  color: rgba(255,220,100);
+  background-color: rgba(60,60,69,255);
+  display: flex;
+  border-radius: 7px;
+  padding: 0.95vw;
+  font-size: 1.7vw;
+  justify-content: center;
+  min-width: 100%;
+  font-family: "Noto Sans";
+}
+
+.rue{
+  font-size: 1.45vw;
+  color: white;
+  width: 20.2vw;
+  font-family: "Noto Sans";
+}
+
+.mailfooter, .MAP{
+  color: white;
+  font-size: 1.7vw;
+  font-family: "Noto Sans";
+}
+
+.MAP{
+  color: rgba(255,220,100);
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+  font-size: 1.45vw;
+  margin: 1%;
+}
+
+.telfooter, .adresse, .page, .reseau{
+  display: inline-flex;
+  align-items: center;
+  min-width: 100%
+}
+
+.tel_title, .adresse_title{
+  color: white;
+  font-size: 1.7vw;
+  width: 15.2vw;
+  font-family: "Nunito";
+}
+
+.page_title, .reseau_title{
+  color: white;
+  font-size: 1.7vw;
+  width: 7.7vw;
+  font-family: "Nunito";
+}
+
+.tel_icon, .adresse_icon, .page_icon{
+  width: auto;
+  height: 2vw;
+  margin: 1%;
+}
+
+.reseau_icon{
+  width: auto;
+  height: 1.7vw;
+  margin: 1%;
+}
+
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(60,60,69,255);
+  align-items: center;
+  padding: 5%;
+  margin: 10% 5% 10% 5%;
+  border-radius: 20px;
+  width: 40%;
+}
+
+.input_news {
+  display: flex;
+  width: 90%;
+  height: 5.2vw;
+  font-size: 1.7vw;
+  font-family: "Nunito";
+  background-color: #5B5B61;
+  border-radius: 7px;
+  border: none;
+  padding-left: 10%;
+  margin-bottom: 5%;
+}
+
+.input_news::placeholder{
+  color: white;
+}
+
+.textfooter{
+  display: flex; 
+  color: white;
+  font-size: 1.45vw;
+  font-family: "Noto Sans";
+}
+
+.texttitle{
+  display: flex; 
+  color: white;
+  font-size: 1.95vw;
+  font-family: "Nunito";
+}
+.containerfooter {
+  width: 100%;
+}
+
+.button_footer {
+  font-family: "Nunito";
+  background-color: rgba(255, 220, 96, 1);
+  border-radius: 7px;
+  width: 100%;
+  height: 5.2vw;
+  font-size: 1.7vw;
+  border: none;
+}
+
+.barre{
+  width: 50%;
+}
+
+.page_link{
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.imgfooter {
+  display: flex;
+  flex-direction: column;
+}
+/* FIN CSS FOOTER */
 
 
 
