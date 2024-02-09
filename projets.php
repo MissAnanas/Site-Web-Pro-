@@ -19,11 +19,11 @@
         <header>
             <img class="logo" src="logo.png">
             <div class="txtheader">
-                <a class = "bheader" href="Accueil.php">Accueil</a>
-                <a class = "bheader" href="A Propos.php">A Propos</a>
-                <a class = "bheader" href="Services.php">Services</a>
-                <a class = "bheader" href="Blog.php">Blog</a>
-                <a href="aaa.html"><button class="btnheader">Démarrer</button></a>
+                <a class = "bheader" href="index.php">Accueil</a>
+                <a class = "bheader" href="aboutus.php">A Propos</a>
+                <a class = "bheader" href="services.php">Services</a>
+                <a class = "bheader" href="blog.php">Blog</a>
+                <a href="index.php#pagepricing"><button class="btnheader">Démarrer</button></a>
             </div>
         </header>
         <h1 class="titleprojets">Projets</h1>
@@ -48,7 +48,7 @@
                         <h2 class="titleprojet">Comment nous avons aidé Google à augmenter son taux de conversion sur G-Suite de 25% en moins de 30 jours.</h2>
                         <p class="txtprojet">Tincidunt donec vulputate ipsum erat urna auctor. <br>Eget phasellus ideirs.adipiscing elit. Tincidunt donec vulputate ipsum erat urna auctor. </p>
                     </div>
-                    <a class="abtnprojet" href="article.php"><button class="btnprojet">Voir le projet <img src="Vector white.png" width="14px" height="14px"></button></a>
+                    <a class="abtnprojet" href="projetsingle.php"><button class="btnprojet">Voir le projet <img src="Vector white.png" width="14px" height="14px"></button></a>
                 </div>
             </div>
 
@@ -60,7 +60,7 @@
                     <h2 class="titleprojet">Comment nous avons aidé Google à augmenter son taux de conversion sur G-Suite de 25% en moins de 30 jours.</h2>
                     <p class="txtprojet">Tincidunt donec vulputate ipsum erat urna auctor. <br>Eget phasellus ideirs.adipiscing elit. Tincidunt donec vulputate ipsum erat urna auctor. </p>
                     </div>
-                    <a class="abtnprojet" href="article.php"><button class="btnprojet">Voir le projet <img src="Vector white.png" width="14px" height="14px"></button></a>
+                    <a class="abtnprojet" href="404.php"><button class="btnprojet">Voir le projet <img src="Vector white.png" width="14px" height="14px"></button></a>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                     <div class="titletxt">
                         <h2 class="titleprojet">Comment nous avons aidé Google à augmenter son taux de conversion sur G-Suite de 25% en moins de 30 jours.</h2>
                         <p class="txtprojet">Tincidunt donec vulputate ipsum erat urna auctor. <br>Eget phasellus ideirs.adipiscing elit. Tincidunt donec vulputate ipsum erat urna auctor. </p>
-                        <a class="abtnprojet" href="article.php"><button class="btnprojet">Voir le projet <img src="Vector white.png" width="14px" height="14px"></button></a>
+                        <a class="abtnprojet" href="404.php"><button class="btnprojet">Voir le projet <img src="Vector white.png" width="14px" height="14px"></button></a>
                     </div>
                 </div>
             </div>

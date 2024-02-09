@@ -19,11 +19,11 @@
         <header>
             <img class="logo" src="logoheader.png">
             <div class="txtheader">
-                <a class = "bheader" href="Accueil.php">Accueil</a>
-                <a class = "bheader" href="A Propos.php">A Propos</a>
-                <a class = "bheader" href="Services.php">Services</a>
-                <a class = "bheader" href="Blog.php">Blog</a>
-                <a href="aaa.html"><button class="btnheader">Démarrer</button></a>
+                <a class = "bheader" href="index.php">Accueil</a>
+                <a class = "bheader" href="aboutus.php">A Propos</a>
+                <a class = "bheader" href="services.php">Services</a>
+                <a class = "bheader" href="blog.php">Blog</a>
+                <a href="index.php#pagepricing"><button class="btnheader">Démarrer</button></a>
             </div>
         </header>
         <div class="BannerTitle">
@@ -81,7 +81,7 @@
                         <p class="txtservicesgl">Lorem ipsum dolor sit amet consecte tur adipiscing elit olme do semper dalaracc lacus vel facilisis volutpat est velitolm.</p>
                     </div>
                 </div>
-                <a class="abtnservicesgl" href="services.php"><button class="btnservicesgl">Contactez Nous</button></a>
+                <a class="abtnservicesgl" href="contacts_page.php"><button class="btnservicesgl">Contactez Nous</button></a>
             </div>
         </div>
     </div>

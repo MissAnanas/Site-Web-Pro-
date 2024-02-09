@@ -29,10 +29,10 @@ header("Pragma: no-cache");
                 <div class="headerhref">
                     <a class = "bheader" href="index.php">Accueil</a>
                     <a class = "bheader" href="aboutus.php">A Propos</a>
-                    <a class = "bheader" href="Services.php">Services</a>
+                    <a class = "bheader" href="services.php">Services</a>
                     <a class = "bheader" href="blog.php">Blog</a>
                 </div>
-                <a href="aaa.html"><button class="btnheader">Démarrer</button></a>
+                <a href="#pagepricing"><button class="btnheader">Démarrer</button></a>
             </div>
         </header>
 
@@ -40,8 +40,8 @@ header("Pragma: no-cache");
             <h2 class="title"><font color = "#FEC90C">//</font>AGENCE MARKETING</h2>
             <h1 class ="title2">Une agence <br> <font color = "#5956E8">marketing</font> 100% <br> digitale</h1>
             <p class="latin">Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt ius ex. Ut vis mazim erroribus forensibus.</p>
-            <a href="Services.html"><button class="btnservices">Nos Services</button></a>
-            <a href="aaa.html"><button class="btnstart">Démarrer</button></a>
+            <a href="services.html"><button class="btnservices">Nos Services</button></a>
+            <a href="#pagepricing"><button class="btnstart">Démarrer</button></a>
         </div>
     </div>
 
@@ -54,7 +54,7 @@ header("Pragma: no-cache");
                     <h2 class="titlesrvc"><font color = "#FEC90C">//</font> 01 . SERVICES</h2>
                     <h1 class="services">Des services à fort impact pour faire passer votre entreprise au niveau supérieur</h1>
                 </div>
-                <a class="abtn" href="Services.php"><button class="btnservices2">Nos Services <img src="Vector purple.png" width="14px" height="14px"></button></a>
+                <a class="abtn" href="services.php"><button class="btnservices2">Nos Services <img src="Vector purple.png" width="14px" height="14px"></button></a>
             </div>
             <div class="containerservices">
                 <div class="column1">
@@ -62,19 +62,19 @@ header("Pragma: no-cache");
                         <img class="logoservice1" src="icon service 1.png">
                         <h3 class="titleservice">Marketing réseaux sociaux</h3>
                         <p class ="txtservice">Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt.</p>
-                        <a href="Services.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
+                        <a href="ServicesSingle.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
                     </div>
                     <div class="service">
                         <img class="logoservice2" src="icon service 2.png">
                         <h3 class="titleservice">Publicité payée</h3>
                         <p class ="txtservice">Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt. </p>
-                        <a href="Services.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
+                        <a href="404.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
                     </div>
                     <div class="service">
                         <img class="logoservice3" src="icon service 3.png">
                         <h3 class="titleservice">Analyses avancées</h3>
                         <p class ="txtservice">Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt. </p>
-                        <a href="Services.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
+                        <a href="404.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
                     </div>
                 </div>
                 <div class="column2">
@@ -82,19 +82,19 @@ header("Pragma: no-cache");
                         <img class="logoservice4" src="icon service 4.png">
                         <h3 class="titleservice">SEO Optimisation</h3>
                         <p class ="txtservice">Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt. </p>
-                        <a href="Services.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
+                        <a href="404.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
                     </div>
                     <div class="service">
                         <img class="logoservice5" src="icon service 5.png">
                         <h3 class="titleservice">Tunnel Optimisation</h3>
                         <p class ="txtservice">Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt. </p>
-                        <a href="Services.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
+                        <a href="404.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
                     </div>
                     <div class="service">
                         <img class="logoservice6" src="icon service 6.png">
                         <h3 class="titleservice">Marketing de contenu</h3>
                         <p class ="txtservice">Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt. </p>
-                        <a href="Services.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
+                        <a href="404.php"><button class="btnservices3">Voir plus <img src="Vector grey.png" width="14px" height="14px"></button></a>
                     </div>
                 </div>
             </div>
@@ -248,7 +248,7 @@ header("Pragma: no-cache");
                     <h2 class="titlesrvc"><font color = "#FEC90C">//</font>05 . ÉTUDES DE CAS</h2>
                     <h1 class="services">1520 - Projet réalisé. Consultez notre dernière étude de cas sur l'agence de marketing</h1>
                 </div>
-                <a class="abtnproject" href="Services.php"><button class="btnservices2">Plus d'études <img src="Vector purple.png" width="14px" height="14px"></button></a>
+                <a class="abtnproject" href="projets.php"><button class="btnservices2">Plus d'études <img src="Vector purple.png" width="14px" height="14px"></button></a>
             </div>
             <div id="project-container">
                 <!-- Section des services -->
@@ -409,7 +409,7 @@ header("Pragma: no-cache");
     </div>
 
 
-    <div class="pagepricing">
+    <div class="pagepricing" id="pagepricing">
         <div class="heading4">
             <img class="imgpricing" src="iconpricing.png" >
             <h2 class="titlepricing"><font color = "#5956E8">//</font> 06 . PRIX & FORFAITS</h2>
@@ -435,7 +435,7 @@ header("Pragma: no-cache");
                     <div class="criteres"><img class="imgyesno" src="vector no.png"> <p class="txtprice">Consulting Video</p></div>
                     <div class="criteres"><img class="imgyesno" src="vector no.png"> <p class="txtprice">Publicité</p></div>
                 </div>
-                <a class="aprice" href="checkout29.html"><button class="btnprice">Je Choisis Light</button></a>
+                <a class="aprice" href="checkout29.php"><button class="btnprice">Je Choisis Light</button></a>
             </div>
 
             <div class="containerprice">
@@ -458,7 +458,7 @@ header("Pragma: no-cache");
                     <div class="criteres"><img class="imgyesno" src="vector yes.png"> <p class="txtprice">Consulting Video</p></div>
                     <div class="criteres"><img class="imgyesno" src="vector no.png"> <p class="txtprice">Publicité</p></div>
                 </div>
-                <a class="aprice" href="checkout49.html"><button class="btnprice">Je Choisis Medium</button></a>
+                <a class="aprice" href="checkout49.php"><button class="btnprice">Je Choisis Medium</button></a>
             </div>
 
             <div class="containerprice">
@@ -480,7 +480,7 @@ header("Pragma: no-cache");
                     <div class="criteres"><img class="imgyesno" src="vector yes.png"> <p class="txtprice">Consulting Video</p></div>
                     <div class="criteres"><img class="imgyesno" src="vector yes.png"> <p class="txtprice">Publicité</p></div>
                 </div>
-                <a class="aprice" href="checkout99.html"><button class="btnprice">Je Choisis Big</button></a>
+                <a class="aprice" href="checkout99.php"><button class="btnprice">Je Choisis Big</button></a>
             </div>
         </div>
     </div>
@@ -544,7 +544,7 @@ header("Pragma: no-cache");
                     <p class="marketingtxt1">Comment augmenter votre portée sur Twitter de plus de 200 % grâce à cette astuce simple</p>
                     <p class="marketingtxt2">Tincidunt donec vulputate ipsum erat urna auctor. Eget phasellus ideirs.adipiscing elit. Tincidunt donec <br>vulputate ipsum erat urna auctor.</p>
                 </div>
-                <a href="Blog.php"><button class="btnblog">Voir plus <img src="Vector purple.png" width="14px" height="14px"></button></a>
+                <a href="blogsingle.php"><button class="btnblog">Voir plus <img src="Vector purple.png" width="14px" height="14px"></button></a>
             </div>
             <img class="imgblog" src="imageblog.png">
         </div>
@@ -559,10 +559,10 @@ header("Pragma: no-cache");
                     <p class="marketingtxt1">Comment demander des articles à des invités pour accroître votre autorité en matière de référencement ?</p>
                     <p class="marketingtxt2">Tincidunt donec vulputate ipsum erat urna auctor. Eget phasellus ideirs.adipiscing elit. Tincidunt donec <br>vulputate ipsum erat urna auctor.</p>
                 </div>
-                <a href="Blog.php"><button class="btnblog">Voir plus <img src="Vector purple.png" width="14px" height="14px"></button></a>
+                <a href="404.php"><button class="btnblog">Voir plus <img src="Vector purple.png" width="14px" height="14px"></button></a>
             </div>
         </div>
-        <a class="abtnblog" href="Blog.php"><button class="btnblog2">Plus d'articles <img src="Vector white.png" width="14px" height="14px"></button></a>
+        <a class="abtnblog" href="blog.php"><button class="btnblog2">Plus d'articles <img src="Vector white.png" width="14px" height="14px"></button></a>
     </div>
 
 

@@ -22,10 +22,10 @@
                 <div class="headerhref">
                     <a class = "bheader" href="index.php">Accueil</a>
                     <a class = "bheader" href="aboutus.php">A Propos</a>
-                    <a class = "bheader" href="Services.php">Services</a>
+                    <a class = "bheader" href="services.php">Services</a>
                     <a class = "bheader" href="blog.php">Blog</a>
                 </div>
-                <a href="aaa.html"><button class="btnheader">Démarrer</button></a>
+                <a href="index.php#pagepricing"><button class="btnheader">Démarrer</button></a>
             </div>
         </header>
         <h1 class="titleaboutus">A propos</h1>

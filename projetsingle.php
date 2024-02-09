@@ -18,11 +18,11 @@
     <header>
         <img class="logo" src="logo.png">
         <div class="txtheader">
-            <a class = "bheader" href="Accueil.php">Accueil</a>
-            <a class = "bheader" href="A Propos.php">A Propos</a>
-            <a class = "bheader" href="Services.php">Services</a>
-            <a class = "bheader" href="Blog.php">Blog</a>
-            <a href="aaa.html"><button class="btnheader">Démarrer</button></a>
+            <a class = "bheader" href="index.php">Accueil</a>
+            <a class = "bheader" href="aboutus.php">A Propos</a>
+            <a class = "bheader" href="services.php">Services</a>
+            <a class = "bheader" href="blog.php">Blog</a>
+            <a href="index.php#pagepricing"><button class="btnheader">Démarrer</button></a>
         </div>
     </header>
 
