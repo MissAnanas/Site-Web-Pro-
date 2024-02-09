@@ -1,0 +1,67 @@
+body{
+    background-color: #292930;
+}
+
+.containerpayment {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    border-radius: 7px;
+    padding: 5%;
+    margin: 15%;
+    margin-top: 5%;
+}
+
+.backgroundpayment {
+    display: flex;
+    justify-content: center;
+}
+
+.titlepayment{
+    font-family: "Nunito";
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    border: none;
+    font-family: "Nunito";
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 2%;
+    width: 96%;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_register {
+    width: 70%;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #292930;
+}
+
+form {
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #292930;
+}
+
+.titlepayment2{
+    font-family: "Nunito";
+    font-size: 20px;
+    width: 100%;
+    padding: 2%;
+}
+
+input#submit_button {
+    margin: 5%;
+}

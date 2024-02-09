@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+.img_404 {
+    max-width: 60%;
+    margin: 5% 0 5% 0;
+}
+
+.content_404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_404{
+    font-family: Nunito;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.txt_404{
+    font-family: Noto Sans;
+    font-size: 100%;
+    width: 55%;
+    text-align: center;
+}
+
+.btn_404 {
+    background-color: #292930;
+    border: 2px solid #292930;
+    border-radius: 7px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    min-height: 60px;
+    font-family: 'Nunito';
+    padding: 0 3%;
+    margin-bottom: 150%;
+}
+
+.btn_404:disabled {
+    pointer-events: none;
+}
+
+.btn_404:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.btn_404:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.btna_404{
+    margin-bottom: 10%;
+}

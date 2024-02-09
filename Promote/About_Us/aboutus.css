@@ -1,0 +1,537 @@
+
+
+
+
+
+
+/* CSS ABOUT US */
+.pageaboutus {
+    background: url(../About_Us/Images/aboutuss.png);
+    height: 595.49px;
+}
+
+.titleaboutus{
+    font-family: "Nunito";
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 77px;
+    display: flex;
+    justify-content: center;
+    margin-top: 13%;
+}
+/* FIN CSS ABOUT US */
+
+
+
+
+/* CSS COMPTEUR */
+.compteur {
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Nunito';
+    display: inline-flex;
+    padding: 5%;
+}
+
+.counter{
+    padding: 0 9vw;
+}
+/* FIN CSS COMPTEUR */
+
+
+
+
+
+
+
+/* CSS A PROPOS */
+.about {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    gap: 17px;
+}
+
+.iconabout {
+    width: 88px;
+    height: 88px;
+}
+
+.containertitle2 {
+    display: flex;
+    width: 652px;
+    height: 129px;
+    gap: 39px;
+}
+
+.titleabout {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 0.135em;
+    margin: 0%;
+    margin-bottom: 3%;
+}
+
+.digital {
+    font-family: "Nunito";
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0%;
+}
+
+.content2 {
+    width: 653px;
+}
+
+.un {
+    display: flex;
+    width: 311.71px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #292930;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.deux {
+    display: flex;
+    width: 311.71px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #292930;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.points {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.logogoals{
+    width: 32.88px;
+    height: 45.15px;
+}
+
+.logomegaphone{
+    width: 36.88px;
+    height: 29.43px;
+}
+
+.titleaboutus2{
+    font-family: "Nunito";
+    font-size: 23px;
+    margin: 0;
+}
+
+.txtaboutus{
+    font-family: "Noto Sans";
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+img.imgabout {
+    width: 530px;
+    height: 524px;
+}
+
+.btnaboutus{
+    width: 133px;
+    height: 64px;
+    padding: 17px 35px 18px 35px;
+    border-radius: 7px;
+    border: 1.5px solid #292930;
+    background-color: white;
+    font-family: "Nunito";
+    font-size: 18px;
+    margin-top: 5%;
+}
+/* CSS A PROPOS */
+
+
+
+
+
+/* CSS Carousel*/
+
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+
+  .valeur{
+    margin: 0%;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .pageslide {
+    background: #292930;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.carousel-container {
+    position: relative;
+    width: calc(100% - 40px);
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-arrow, .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left-arrow {
+    left: 10%;
+}
+
+.logo_flecheL:hover {
+    content: url(flecheVgauche.png);
+}
+
+.logo_flecheL:active {
+    content: url(flecheVgauche.png);
+}
+
+.right-arrow {
+    right: 10%;
+}
+
+.logo_flecheR:hover {
+    content: url(flecheVdroite.png);
+}
+
+.logo_flecheR:active {
+    content: url(flecheVdroite.png);
+}
+
+
+  .carousel {
+    display: flex;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+    width: 55%;
+  }
+
+  .carousel-item {
+    background-image: linear-gradient(180deg, #36363E 0%, #292930 100%), linear-gradient(0deg, #424245, #424245);
+    border-radius: 30px;
+    border: 1px solid #424245;
+    margin-right: 10px;
+    flex: none;
+    margin: 0 2%;
+    width: 19%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+
+  .carousel-item img {
+    width: 75%;
+    height: auto;
+    margin-bottom: 15%;
+  }
+
+  .carousel-item h3 {
+    margin-top: 0;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .carousel_txt{
+    font-family: Noto Sans;
+    font-size: 80%;
+  }
+
+.carousel_titre{
+    font-family: Nunito;
+    font-size: 120%;
+}
+
+.btn_carousel {
+    display: flex;
+    margin-top: 5%;
+    width: 30%;
+    justify-content: center;
+}
+
+.btn_carousel1 {
+    margin: 5%;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    color: white;
+    padding: 0 5%;
+    cursor: pointer;
+}
+
+.btn_carousel2 {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #292930;
+    padding: 0 5%;
+    cursor: pointer;
+}
+
+.btn_fleche {
+    width: 10%;
+}
+
+.txt_btn2, .btn_carousel1{
+    font-family: Nunito;
+    font-size: 18px;
+
+}
+
+/* FIN CSS Carousel*/
+
+
+
+
+
+
+
+
+
+/* CSS EQUIPE */
+.heading2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+.titleequipe {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 0.135em;
+}
+
+.equipe {
+    margin: 0%;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 25px 50px 25px;
+    border: 1px solid #DCDCDC;
+    border-radius: 30px;
+}
+
+.lineperson {
+    width: 80px;
+    height: 2.5px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.person2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 25px 50px 25px;
+    border: 1px solid #DCDCDC;
+    background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    border-radius: 30px;
+}
+
+.name{
+    margin: 0;
+    font-family: "Nunito";
+    font-size: 25px;
+}
+
+.metierperson {
+    margin-top: 3%;
+    margin-bottom: 8%;
+    font-family: "Noto Sans";
+    font-size: 18px;
+}
+/* FIN CSS EQUIPE */
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS LOCATION */
+.backgroundbureaux {
+    background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    padding-bottom: 10%;
+  }
+
+.containertitle {
+    gap: 39px;
+    display: flex;
+}
+
+.titlelocation {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.135em;
+    text-align: left;
+}
+
+
+.visite {
+    font-family: "Nunito";
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 44px;
+    text-align: left;
+    width: 620px;
+    margin-bottom: 0%;
+}
+
+.btnlocation {
+    width: 119px;
+    height: 64px;
+    border-radius: 7px;
+    font-family: "Nunito";
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292930;
+    color: white;
+    border: none;
+  }
+
+.logolocation {
+    width: 88px;
+    height: 88px;
+}
+
+.pagelocation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+}
+
+.abtn {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 255px;
+    text-decoration: none;
+}
+
+.containerlocation {
+    display: flex;
+    gap: 31px;
+    margin-top: 8%;
+}
+
+.location{
+    padding:50px 31px 50px 31px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px #92929240;
+    border-radius: 30px;
+    width: 316px;
+    height: 290px;
+}
+
+.vectorlocation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+}
+
+.vectorlocation2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+}
+
+.tel{
+    width: 22px;
+    height: 22px;
+}
+
+.mail{
+    width: 22px;
+    height: 16.5px;
+}
+
+.ville{
+    font-family: "Nunito";
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 4%;
+}
+
+.adress{
+    font-family: "Noto Sans";
+    font-size: 20px;
+}
+/* FIN CSS LOCATION */
+
+
+
+
+
+
+
+
+

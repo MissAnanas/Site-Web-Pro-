@@ -1,0 +1,360 @@
+
+
+
+
+
+ /*CSS SERVICE SINGLE */
+.titleservicesglbanner{
+    font-family: "Nunito";
+    font-size: 70px;
+    margin: 0;
+}
+
+.txtservicesglbanner{
+    font-family: "Noto Sans";
+    font-size: 18px;
+}
+
+.BannerTitle {
+    width: 1200px;
+    height: 569px;
+    margin-left: 360px;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ /* FIN CSS SERVICE SINGLE */
+
+
+
+
+
+
+
+
+/* CSS NOS SERVICES */
+.backgroundservicesgl {
+    background-color: #292930;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.titleservices {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 0.135em;
+    color: white;
+    font-weight: 500;
+}
+
+.marketing {
+    margin: 0%;
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 40px;
+    line-height: 44px;
+    color: white;
+  }
+
+.pageservicesgl{
+    width: 1200px;
+}
+
+.column1{
+    display: flex;
+    gap: 30px;
+}
+
+.containereachsrv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%),
+linear-gradient(0deg, #424245, #424245);
+    padding: 49px 40px 49px 40px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    border: 1px solid #424245;
+}
+
+.iconservicesgl {
+    width: 153px;
+    height: 153px;
+}
+
+.titleservicesgl{
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.txtservicesgl {
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.containerservice {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btnservicesgl{
+    width: 198px;
+    height: 63px;
+    padding: 17px, 35px, 17px, 35px;
+    border-radius: 7px;
+    border: 1.5px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+    font-family: "Nunito";
+    font-size: 18px;
+}
+
+.abtnservicesgl {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+ /* CSS ABOUT */
+ .about {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    height: 851px;
+    align-items: center;
+    gap: 5%;
+}
+  
+  .iconabout {
+    width: 88px;
+    height: 88px;
+  }
+  
+  .containertitle2 {
+    display: flex;
+    width: 652px;
+    height: 129px;
+    gap: 39px;
+  }
+  
+  .titleabout {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 0.135em;
+    margin: 0%;
+    margin-bottom: 3%;
+  }
+  
+  .digital {
+    font-family: "Nunito";
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0%;
+  }
+  
+  .heading2 {
+    width: 653px;
+    height: 284px;
+  }
+  
+  .txt1 {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 28px;
+  }
+
+.imgabout {
+    height: 477px;
+}
+
+.vectoryes{
+    width: 26px;
+    height: 26px;
+}
+
+.un {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.txtpoint{
+    font-family: "Noto Sans";
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+    /* FIN CSS ABOUT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS PROCCESS */
+.backgroundproccess {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.txtcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contentproccess {
+    display: flex;
+    height: 716.5px;
+    background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px
+}
+
+.containerproccessus {
+    width: 969px;
+    height: 450px;
+    display: flex;
+}
+
+.txtproccess {
+    font-family: "Nunito";
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+.txtpoint2 {
+    margin: 0;
+    font-family: "Noto Sans";
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+
+.points {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.step1, .step2, .step3{
+    width: 86px;
+    height: 86px;
+    z-index: 1;
+}
+
+.schemaproccess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.barreproccessus {
+    width: 2px;
+    height: 227px;
+    margin-top: 6%;
+    position: absolute;
+}
+
+.txtschema {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txtschema1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+
+.titleschema1{
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+    position: absolute;
+
+}
+
+.titleschema{
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0;
+}
+
+.txtschema{
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.step3 {
+    margin-bottom: 15%;
+}
+
+/* FIN CSS PROCCESS */
+
+
+
+
+
+
+
+
+
+

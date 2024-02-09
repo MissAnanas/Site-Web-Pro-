@@ -1,0 +1,143 @@
+
+
+
+
+
+
+
+  /* CSS PROJECTS */
+.pageprojets {
+    background: url(projets\ background.png);
+    width: 1920px;
+    height: 595.49px;
+}
+
+.titleprojets{
+    font-family: "Nunito";
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 77px;
+    display: flex;
+    justify-content: center;
+    margin-top: 13%;
+}
+
+.containerall {
+    width: 1200px;
+    height: 1780px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container1 {
+    width: 1100px;
+    height: 460px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: #E9F7FF;
+}
+
+.container2 {
+    width: 1100px;
+    height: 460px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: #FFDBD4;
+}
+
+.container3 {
+    width: 1100px;
+    height: 460px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: #FFF3CA;
+}
+
+.logoreseaux {
+    width: 525px;
+    height: 460px;
+}
+
+.theproject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.txtprojets1 {
+    background: white;
+    height: 362px;
+    border-radius: 10px;
+    padding: 48px;
+    box-shadow: 0px 2px 4px 0px #92929240;
+
+}
+
+.titleprojet {
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #CCCCCC;
+    padding-top: 5%;
+}
+
+.txtprojet {
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.btnprojet {
+    width: 192px;
+    height: 64px;
+    padding: 17px 30px 18px 30px;
+    border-radius: 7px;
+    background-color: #292930;
+    color: white;
+    border:none;
+    font-family: "Nunito";
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.abtnprojet {
+    text-decoration: none;
+}
+
+.titleprojethead {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.135em;
+    margin-top: 12%;
+}
+
+.projets {
+    font-family: "Nunito";
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 0;
+}

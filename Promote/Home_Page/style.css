@@ -1,0 +1,1068 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/* CSS BANNER */
+.pagebanner {
+  background-image: url(../Home_Page/Images/Banner_Image.png);
+  height: 115vh;
+}
+
+  .title {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 0%;
+  }
+
+  .title2 {
+    font-family: "Nunito";
+    font-size: 70px;
+    line-height: 77.35px;
+    margin-top: 28px;
+    font-weight: bold;
+  }
+
+  .container {
+    margin-left: 360px;
+    padding-top: 184px;
+    width: 740px;
+  }
+
+  .latin {
+    font-size: 18px;
+    font-family: "Noto Sans";
+    width: 593px;
+    line-height: 28.17px;
+    margin-top: 34px;
+  }
+
+  .btnservices {
+    width: 183px;
+    height: 64px;
+    border-radius: 7px;
+    padding: 17px, 39px, 18px, 39px;
+    background-color: #292930;
+    font-family: "Nunito";
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+  }
+
+  .btnstart {
+    width: 156px;
+    height: 64px;
+    border-radius: 7px;
+    padding: 17px, 39px, 18px, 39px;
+    background-color: transparent;
+    font-family: "Nunito";
+    font-size: 18px;
+    color: #292930;
+  }
+  /* FIN CSS BANNER */
+
+
+
+
+
+
+  /* CSS SERVICES */
+  img.logotitle {
+    width: 88px;
+    height: 88px;
+  }
+
+.backgroundservices {
+  background-color: #292930;
+  height: 1750px;
+  display: flex;
+  justify-content: center;
+}
+
+.containertitle {
+  gap: 39px;
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 10%;
+}
+
+.titlesrvc {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.135em;
+  text-align: left;
+  color: white;
+}
+
+
+.services {
+  font-family: "Nunito";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  width: 620px;
+  margin-bottom: 0%;
+}
+
+.btnservices2 {
+  width: 178px;
+  height: 62px;
+  padding: 17px 24px 18px 24px;
+  border-radius: 7px;
+  font-family: "Nunito";
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.column1 {
+  display: flex;
+}
+
+.column2 {
+  display: flex;
+}
+
+.containerservices {
+  width: 1300px;
+}
+
+.service {
+  background: linear-gradient(180deg, #36363E 0%, #292930 100%), linear-gradient(0deg, #424245, #424245);
+  width: 352px;
+  border-radius: 30px;
+  padding: 41px 39px 41px 39px;
+  margin: 40px;
+  border: 1px solid #424245
+}
+
+.titleservice {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-wrap: nowrap;
+  width: 274px;
+
+}
+
+.txtservice {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.btnservices3 {
+  width: 266px;
+  height: 62px;
+  padding: 17px 70px 18px 70px;
+  border-radius: 7px;
+  background: transparent;
+  font-family: "Nunito";
+  font-size: 18px;
+  line-height: 29px;
+  border: 1px solid #424245;
+  color: #525255;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.btnservices3:hover {
+  background-color: #FFDC60;
+  color: black;
+  border: 1px solid black;
+}
+
+.btnservices3:hover img {
+  content: url("../Home_Page/Images/Vector\ purple.png");
+}
+
+.abtn {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 255px;
+}
+
+a {
+  text-decoration: none;
+}
+  /* FIN CSS SERVICES */
+
+
+
+
+
+
+
+
+  /* CSS ABOUT */
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  height: 851px;
+}
+
+.iconabout {
+  width: 88px;
+  height: 88px;
+}
+
+.containertitle2 {
+  display: flex;
+  width: 652px;
+  height: 129px;
+  gap: 39px;
+}
+
+.titleabout {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  letter-spacing: 0.135em;
+  margin: 0%;
+}
+
+.digital {
+  font-family: "Nunito";
+  font-size: 40px;
+  line-height: 44px;
+  margin: 0%;
+}
+
+.heading {
+  width: 653px;
+  height: 284px;
+}
+
+.txt1 {
+font-family: "Noto Sans";
+font-size: 18px;
+line-height: 28px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+}
+
+.circle2 {
+  display: flex;
+  align-items: center;
+}
+
+.points {
+  width: 570px;
+  margin-left: auto;
+}
+
+.titlepoints {
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 0.5%;
+  font-family: "Nunito";
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.txt2 {
+  margin-left: 99px;
+  margin-top: -4%;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 28px;
+}
+  /* FIN CSS ABOUT */
+
+
+
+
+
+
+
+
+
+
+
+  /* CSS PROCCESS */
+
+.pageproccess {
+  background-image: url(../Home_Page/Images/Backgroundproccess.png);
+  width: 1200px;
+  height: 1444px;
+  margin: auto;
+}
+
+.heading2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12%;
+  margin-top: 8%;
+}
+
+.processus {
+  margin: 0%;
+  text-align: center;
+  font-family: "Nunito";
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.titleproccessus {
+  margin-top: 34px;
+  margin-bottom: 20px;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  letter-spacing: 0.135em;
+}
+
+.containerprocess1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: 30px;
+  width: 332px;
+}
+
+.containerprocess3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+  width: 332px;
+}
+
+.titlestep2 {
+  text-align: right;
+}
+
+.imgstep1 {
+  width: 292.36px;
+  height: 179.13px;
+}
+
+.imgstep3 {
+  width: 404.36px;
+  height: 297.96px;
+}
+
+.imgstep2{
+  width: 287px;
+  height: 263px;  
+}
+
+
+.titleproccess {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.txtproccess {
+  font-family: "Noto Sans";
+  font-size: 18px;
+}
+
+.schema {
+  display: flex;
+  margin-top: 8%;
+  height: 857px;
+  justify-content: center;
+}
+
+.number1{
+  width: 86px;
+  height: 86px;
+  z-index: 1;
+  margin-top: 32px;
+}
+.number2 {
+  width: 86px;
+  height: 86px;
+  z-index: 1;
+  margin-top: 220px;
+}
+.number3 {
+  width: 86px;
+  height: 86px;
+  z-index: 1;
+  margin-top: 320px;
+}
+
+.positionbarre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barreproccess {
+  width: 1.5px;
+  height: 696px;
+  position: absolute;
+  margin-top: 68px;
+}
+
+
+  /* FIN CSS PROCCESS */
+
+
+
+
+
+
+
+
+  /* CSS TEMOIGNAGES */
+.pagetestimonial {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 43px;
+}
+
+.imgtestimonial {
+  width: 88px;
+  height: 88px;
+}
+
+.heading3 {
+  display: flex;
+  justify-content: flex-start;
+  width: 1199px;
+  gap: 39px;
+}
+
+.btnnavig {
+  box-shadow: 0px 10px 12px 0px #C6C6C640;
+  width: 70px;
+  height: 70px;
+  border: 0.5px;
+  border-radius: 90px;
+}
+
+.titletestimonial {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.135em;
+  text-align: left;
+  color: black;
+  margin: 0;
+}
+
+.secteurs {
+  font-family: "Nunito";
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.star {
+  cursor: pointer;
+  font-size: 40px;
+  color: gold;
+}
+
+.containercomments {
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+  height: 600px;
+}
+
+.comment1{
+  width: 556px;
+  height: 370px;
+  padding: 32px 26px 32px 26px;
+  border-radius: 7px;
+  background: linear-gradient(151.16deg, #FFF8F8 10.38%, #F5F7FF 95.44%);
+  
+}
+
+.titlecomment {
+  display: flex;
+  justify-content: space-between;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #CCCCCC;
+  padding-bottom: 5%;
+  align-items: flex-end;
+}
+
+.companyex1{
+  max-width:167px;
+  max-height: 39px;
+}
+
+.titleandtxt{
+  padding: 48px 37px 48px 37px;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px #92929240;
+  border-radius: 7px;
+  height: 170px;
+}
+
+.commentairetxt {
+  font-family: "Noto Sans";
+  font-size: 18px;
+}
+
+.pdpandauteur {
+  display: flex;
+  gap: 13px;
+  margin-top: 8%;
+}
+
+.pdp1{
+  width: 57px;
+  height: 57px;
+}
+
+.auteur{
+  font-family: "Nunito";
+  font-size: 20px;
+  margin: 0;
+}
+
+.métier{
+  font-family: "Noto Sans";
+  font-size: 18px;
+  margin: 0;
+}
+
+.backgroundcommentaire {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+  /* FIN CSS TEMOIGNAGES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* CSS ETUDE DE CAS */
+.backgroundproject {
+  background-color: #292930;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+
+.abtnproject {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 255px;
+}
+
+#project-container {
+  display: flex;
+  gap: 27px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #5D5D63;
+  padding-bottom: 10%;
+}
+
+#services-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.serviceproject {
+  background: #383840;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 559px;
+  margin: 0;
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.service-content {
+  display: none;
+  padding-top: 10px;
+}
+
+#image-container {
+  width: 45%;
+}
+
+.service-category {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  color: #FFDC60;
+
+}
+
+.titleetudedecas{
+  font-family: "Nunito";
+  font-size: 30px;
+
+}
+
+.txtetudedecas{
+  font-family: "Noto Sans";
+  font-size: 18px;
+}
+
+.Projet1520{
+  width: 614px;
+  height: 546px;
+}
+
+.service-content {
+  opacity: 1; /* Opacité par défaut */
+  transition: opacity 0.3s ease; /* Animation de transition */
+}
+
+.service-content.closed {
+  opacity: 0.5; /* Opacité lorsque le service est fermé */
+}
+
+
+  /* FIN CSS ETUDE DE CAS */
+
+
+/* CSS Compteurs*/
+
+#superposer1 {
+    background-image: url(../Home_Page/Images/image2.png);
+    display: flex;
+    justify-content: center;
+}
+
+.compteur {
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: 'Nunito';
+  display: inline-flex;
+  padding: 5% 0;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.counter {
+    color: white;
+}
+
+.counter_all {
+    display: flex;
+    align-items: center;
+}
+
+.txt_counteur {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.compteurtxt{
+    color: #D0D0D0;
+    margin-left: 10%;
+}
+
+.millions{
+  font-family: "Nunito";
+  font-size: 40px;
+  margin: 0;
+  color: white;
+}
+/*Fin CSS Compteurs */
+
+
+
+
+
+
+  /*CSS PRIX */
+.heading4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+
+.offre {
+  margin: 0%;
+  text-align: center;
+  font-family: "Nunito";
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.titlepricing {
+  margin-top: 34px;
+  margin-bottom: 20px;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  letter-spacing: 0.135em;
+}
+
+.containerpricing {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.containerprice {
+  padding: 45px 38px 45px 38px;
+  border-radius: 10px;
+  border: 1px solid #E2E2E2;
+  background-color: #F6F6F6;
+}
+
+.criteres {
+  display: flex;
+  align-items: center;
+}
+
+
+.imgyesno {
+  width: 16px;
+  height: 16px;
+  margin-right: 15px;
+}
+
+.btnprice {
+  width: 321px;
+  height: 64px;
+  border-radius: 7px;
+  gap: 10px;
+  background: #292930;
+  color: white;
+  border: none;
+  font-family: "Nunito";
+  font-size: 18px;
+}
+
+.aprice {
+  display: flex;
+  justify-content: center;
+}
+
+.txtprice {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 44px;
+  margin: 0%;
+}
+
+.iconandtitle {
+  display: flex;
+  align-items: center;
+}
+
+.imgprice1 {
+  width: 49.14px;
+  height: 51.61px;
+}
+
+.imgprice2 {
+  width: 36.43px;
+  height: 55px;
+}
+
+.imgprice3 {
+  width: 48.98px;
+  height: 49px;
+}
+
+.titleformule {
+  display: flex;
+  justify-content: center;
+  width: 223px;
+  font-family:"Nunito";
+  font-size: 25px;
+  margin: 0;
+}
+
+.titleprice {
+  display: flex;
+  width: 223px;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+.pricetag {
+  font-family: "Nunito";
+  font-size: 50px;
+  margin: 0;
+}
+
+.month {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  margin-top: 7%;
+}
+
+.line3 {
+  width: 100%;
+}
+
+.yesno {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.containerprice:hover {
+  background-color: #292930;
+}
+
+.containerprice:hover .txtprice {
+  color: white;
+}
+
+.containerprice:hover .btnprice {
+  background: #F6F6F6;
+  color: black;
+}
+
+.containerprice:hover h3 {
+  color: white;
+}
+
+.rectangle {
+  position: absolute;
+}
+
+.txtrectangle {
+  margin-left: 240px;
+  margin-top: 0;
+  margin-bottom: 120px;
+  background: #FFDC60;
+  width: 89px;
+  height: 40px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  justify-content: center;
+  font-weight: 600;
+}
+/* FIN CSS PRIX */
+
+
+
+
+
+
+
+
+/* CSS BENEFICES */
+.pagebenifits {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.heading5 {
+  display: flex;
+  gap: 39px;
+}
+
+.containertxt3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.imgbenifits {
+  width: 88px;
+  height: 88px;
+}
+
+.contentbenef {
+  display: flex;
+  width: 1199px;
+  height: 621px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #CCCCCC;
+  height: 734px;
+}
+
+.titlebenifits {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.135em;
+  margin: 0;
+}
+
+.avantages {
+  font-family: "Nunito";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  margin: 0;
+}
+
+.contentbenef2 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+/* FIN CSS BENEFICES */
+
+
+
+
+
+
+
+
+
+
+
+/* CSS BLOG */
+
+.tag {
+  display: flex;
+  justify-content: space-between;
+  width: 435px;
+}
+
+.contentblog1 {
+  display: flex;
+  width: 1050px;
+  padding: 85px 90px 85px 90px;
+  background-color: #FFF3CA;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.contentblog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.txtblog1 {
+  width: 470px;
+  height: 338px; 
+}
+
+.titleblog1\.1 {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #292930;
+  width: 123px;
+  height: 45px;
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleblog1\.2 {
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.135em;
+  display: flex;
+  align-items: center;
+}
+
+.marketingtxt1 {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.marketingtxt2 {
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 6%;
+}
+
+.btnblog {
+  width: 143px;
+  height: 64px;
+  padding: 17px 24px 18px 24px;
+  border-radius: 7px;
+  border: none;
+  font-family: "Nunito";
+  font-size: 18px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentblog2 {
+  display: flex;
+  width: 1050px;
+  padding: 85px 90px 85px 90px;
+  background-color: #E9F7FF;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.btnblog2 {
+  width: 210px;
+  height: 64px;
+  padding: 17px 35px 18px 35px;
+  border-radius: 7px;
+  background: #292930;
+  font-family: "Nunito";
+  font-size: 18px;
+  color: white;
+  border: none;
+  margin-top: 54px;
+}
+/* FIN CSS */
+
+

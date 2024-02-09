@@ -1,0 +1,202 @@
+
+
+
+
+
+
+    /* CSS ARTICLE */ 
+.titlegoogle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+}
+.vectorarticle {
+    width: 15px;
+    height: 2px;
+}
+
+.logogoogle2 {
+    width: 119.32px;
+    height: 40.36px;
+}
+
+.containerarticle {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageprojet {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.dateprojet {
+    font-family: "Noto Sans";
+    font-size: 15px;
+    letter-spacing: 0.135em;
+}
+
+.titlearticle{
+    font-family: "Nunito";
+    font-size: 45px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    height: 220px;
+  }
+
+.titlesub{
+    font-family: "Nunito";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.txtsub {
+    font-family: "Noto Sans";
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.counter {
+    color: #5956E8;
+    font-family: "Nunito";
+    font-size: 40px;
+    margin: 0;
+}
+
+.txtsub2 {
+    font-family: "Noto Sans";
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.titleprojet {
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #CCCCCC;
+    margin-top: 10%;
+}
+
+.contenttxt {
+    width: 900px;
+    margin-top: 5%;
+}
+
+.titletxt{
+    font-family: "Nunito";
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.txtprojet{
+    font-family: "Noto Sans";
+    font-size: 18px; 
+}
+
+.txtprojet1{
+    font-family: "Noto Sans";
+    font-size: 18px;
+    line-height: 28px; 
+    margin: 0;  
+    margin-bottom: 5%;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    width: 661.21px;
+    height: 242px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 6%;
+}
+
+/* FIN CSS ARTICLE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS NEWSLETTER */ 
+.newsletter {
+    background-image: url(newsletterbackground.png);
+    background-color: #292930;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.newsletter_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre_newsletter {
+    font-family: "Nunito";
+    font-size: 45px;
+    color: white;
+}
+
+.input_content {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+button.btn_souscrire {
+    background: #FFDC60;
+    color: #292930;
+    width: 30%;
+    padding: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: none;
+    font-family: "Nunito";
+    font-size: 18px;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_mail{
+    background: #5B5B61;
+    color: white;
+    padding: 5%;
+    width: 45%;
+    border-radius: 10px;
+    border: none;
+    height: 5%;
+}
+
+.input_mail::placeholder{
+    color: white;
+}
