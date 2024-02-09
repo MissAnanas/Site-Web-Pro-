@@ -1,3 +1,11 @@
+<?php
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");     
+header("Cache-Control: post-check=0, pre-check=0", false);     
+header("Pragma: no-cache");
+
+require_once 'config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -17,13 +25,7 @@
     <div class="containeradmin">
         <form id="updateForm">
             <?php
-                header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");     
-                header("Cache-Control: post-check=0, pre-check=0", false);     
-                header("Pragma: no-cache");
-                
-                require_once 'config.php';
-
-                $stmt = $bdd->query("SELECT * FROM service_page_texts");
+                $stmt = $bdd->query("SELECT id, content FROM service_page_texts");
                 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
                     echo '<label for="text_' . $row['id'] . '">' . $row['content'] . '</label>';
                     echo '<input type="text" id="text_' . $row['id'] . '" name="text_' . $row['id'] . '" value="' . htmlspecialchars($row['content']) . '"><br>';
@@ -32,7 +34,7 @@
 
             <button class="btnadmin" type="button" onclick="updateTexts()">Enregistrer</button>
         </form>
-        </div>
+    </div>
 
     <script>
         function updateTexts() {
